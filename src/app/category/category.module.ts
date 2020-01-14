@@ -3,7 +3,7 @@ import { CategoryComponent } from './category/category.component';
 import { SharedModule } from '../shared/shared.module';
 import { CategoryListComponent } from './category-list/category-list.component';
 import { StoreModule } from '@ngrx/store';
-import { categoryReducer } from '../redux/reducers/category.reducer';
+import { categorReducer } from '../redux/reducers/category.reducer';
 
 
 
@@ -11,7 +11,7 @@ import { categoryReducer } from '../redux/reducers/category.reducer';
   declarations: [CategoryComponent, CategoryListComponent],
   imports: [
     SharedModule,
-    StoreModule.forFeature("category", categoryReducer)
+    StoreModule.forFeature("category", categorReducer)
   ],
   exports:[
     CategoryComponent,

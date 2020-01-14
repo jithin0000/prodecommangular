@@ -3,8 +3,9 @@ import { CategoryService } from 'src/app/services/category/category.service';
 import { Observable } from 'rxjs';
 import { Category } from 'src/app/models/Category.model';
 import { Store } from '@ngrx/store';
-import { CategoryState } from 'src/app/redux/reducers/category.reducer';
 import { AppState } from 'src/app/redux/AppState';
+
+import { selectCategories } from "../../redux/selector/category.selector";
 
 @Component({
   selector: 'app-category-list',
@@ -24,7 +25,7 @@ export class CategoryListComponent implements OnInit {
     this.categories$ = this.categoryService.getAll()
 
 
-    this.store.select(state => state.category).subscribe(res => console.log(res))
+    this.store.select(state => selectCategories(state)).subscribe(res => console.log(res))
   }
 
 }
