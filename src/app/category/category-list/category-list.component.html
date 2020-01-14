@@ -1,0 +1,11 @@
+<div fxLayout="row" fxLayoutAlign="start start" fxLayoutGap="10px">
+    <div fxFlex="50%">
+        <ul *ngIf="categories$ | async as categories" >
+            <li *ngFor="let cat of categories" >{{cat.name}}</li>
+        </ul>
+    </div>
+
+    <div fxFlex="50%">
+        <h2>hello this is working</h2>
+    </div>
+</div>

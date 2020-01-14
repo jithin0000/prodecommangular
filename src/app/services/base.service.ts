@@ -13,7 +13,7 @@ export class BaseService<T> {
   }
 
   public getAll(){
-    return this.http.get(this.url)
+    return this.http.get<T[]>(this.url)
   }
   
 
