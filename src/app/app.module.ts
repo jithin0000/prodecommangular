@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CategoryModule } from './category/category.module';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CategoryModule } from './category/category.module';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    CategoryModule
+    FlexLayoutModule,
+    CategoryModule  
   ],
   providers: [],
   bootstrap: [AppComponent],
