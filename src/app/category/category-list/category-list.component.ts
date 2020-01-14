@@ -5,7 +5,7 @@ import { Category } from 'src/app/models/Category.model';
 import { Store } from '@ngrx/store';
 import { AppState } from 'src/app/redux/AppState';
 
-import { selectCategories } from "../../redux/selector/category.selector";
+import { selectCategories, selectCategoryloading } from "../../redux/selector/category.selector";
 import { getCategory } from 'src/app/redux/actions/category.action';
 
 @Component({
@@ -16,7 +16,8 @@ import { getCategory } from 'src/app/redux/actions/category.action';
 export class CategoryListComponent implements OnInit {
 
   categories$: Observable<Category[]>
-
+  categoryColumns = ["No", "Name", "Created"]
+  loading$: Observable<boolean>;
   constructor(
     private store: Store<AppState>,
     private categoryService: CategoryService) { }
@@ -27,7 +28,8 @@ export class CategoryListComponent implements OnInit {
 
     this.store.dispatch(getCategory())
 
-    this.store.select(state => selectCategories(state)).subscribe(res => console.log(res))
+    this.store.select(state => selectCategories(state))
+    this.loading$ = this.store.select(state => selectCategoryloading(state))
   }
 
 }

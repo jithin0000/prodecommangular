@@ -9,3 +9,8 @@ export const selectCategories = createSelector(
     selectCategoryFeature,
     (state: CategoryState) => state.data
 )
+
+export const selectCategoryloading = createSelector(
+    selectCategoryFeature,
+    (state: CategoryState)=> state.loading
+)
