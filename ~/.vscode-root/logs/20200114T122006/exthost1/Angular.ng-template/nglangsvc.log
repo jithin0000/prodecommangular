@@ -1,0 +1,983 @@
+Info 0    [12:21:12.539] Format host information updated
+Info 1    [12:21:12.539] reload projects.
+Info 2    [12:21:12.540] Structure before ensureProjectForOpenFiles:
+Info 3    [12:21:12.540] Structure after ensureProjectForOpenFiles:
+Info 4    [12:21:12.540] Host file extension mappings updated
+Info 5    [12:21:12.573] Search path: /home/jithin/Documents/project/ecommerce/ecommang/src/app/redux/selector
+Info 6    [12:21:12.577] For info: /home/jithin/Documents/project/ecommerce/ecommang/src/app/redux/selector/category.selector.ts :: Config file name: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 7    [12:21:12.579] Opened configuration file /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 8    [12:21:15.426] Loading global plugin @angular/language-service
+Info 9    [12:21:15.426] Enabling plugin @angular/language-service from candidate paths: /home/jithin/.vscode/extensions/angular.ng-template-0.900.4/node_modules/typescript/lib/tsserverlibrary.js/../../..,/home/jithin/.vscode/extensions/angular.ng-template-0.900.4/server/node_modules/@angular/language-service/bundles/language-service.umd.js
+Info 10   [12:21:15.426] Loading @angular/language-service from /home/jithin/.vscode/extensions/angular.ng-template-0.900.4/node_modules/typescript/lib/tsserverlibrary.js/../../.. (resolved to /home/jithin/.vscode/extensions/angular.ng-template-0.900.4/node_modules/node_modules)
+Info 11   [12:21:15.450] Loading @angular/language-service from /home/jithin/.vscode/extensions/angular.ng-template-0.900.4/server/node_modules/@angular/language-service/bundles/language-service.umd.js (resolved to /home/jithin/.vscode/extensions/angular.ng-template-0.900.4/server/node_modules/@angular/language-service/bundles/language-service.umd.js/node_modules)
+Info 12   [12:21:15.616] Plugin validation succeded
+Info 13   [12:21:15.652] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 14   [12:21:20.804] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 1 structureChanged: true Elapsed: 5152ms
+Info 15   [12:21:20.804] Project '/home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json' (Configured) 
+Info 16   [12:21:20.804] 	Files (383)
+
+Info 17   [12:21:20.804] -----------------------------------------------
+Info 18   [12:21:20.807] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 19   [12:21:20.831] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 2 structureChanged: false Elapsed: 24ms
+Info 20   [12:21:20.831] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 21   [12:21:22.847] Search path: /home/jithin/Documents/project/ecommerce/ecommang/src/app/redux/effect
+Info 22   [12:21:22.847] For info: /home/jithin/Documents/project/ecommerce/ecommang/src/app/redux/effect/category.effect.ts :: Config file name: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 23   [12:21:22.849] Loading global plugin @angular/language-service
+Info 24   [12:21:22.849] Enabling plugin @angular/language-service from candidate paths: /home/jithin/.vscode/extensions/angular.ng-template-0.900.4/node_modules/typescript/lib/tsserverlibrary.js/../../..,/home/jithin/.vscode/extensions/angular.ng-template-0.900.4/server/node_modules/@angular/language-service/bundles/language-service.umd.js
+Info 25   [12:21:22.849] Loading @angular/language-service from /home/jithin/.vscode/extensions/angular.ng-template-0.900.4/node_modules/typescript/lib/tsserverlibrary.js/../../.. (resolved to /home/jithin/.vscode/extensions/angular.ng-template-0.900.4/node_modules/node_modules)
+Info 26   [12:21:22.850] Loading @angular/language-service from /home/jithin/.vscode/extensions/angular.ng-template-0.900.4/server/node_modules/@angular/language-service/bundles/language-service.umd.js (resolved to /home/jithin/.vscode/extensions/angular.ng-template-0.900.4/server/node_modules/@angular/language-service/bundles/language-service.umd.js/node_modules)
+Info 27   [12:21:22.884] Plugin validation succeded
+Info 28   [12:21:22.887] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 29   [12:21:23.682] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true Elapsed: 795ms
+Info 30   [12:21:23.683] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 31   [12:21:23.683] 	Files (26)
+
+Info 32   [12:21:23.683] -----------------------------------------------
+Info 33   [12:21:23.884] Search path: /home/jithin/Documents/project/ecommerce/ecommang/src/app/redux/effect
+Info 34   [12:21:23.884] For info: /home/jithin/Documents/project/ecommerce/ecommang/src/app/redux/effect/category.effect.ts :: Config file name: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 35   [12:27:18.66] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 36   [12:27:18.96] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 3 structureChanged: false Elapsed: 30ms
+Info 37   [12:27:18.96] Project '/home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json' (Configured) 
+Info 38   [12:27:18.96] 	Files (383)
+
+Info 39   [12:27:18.96] -----------------------------------------------
+Info 40   [12:27:18.987] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 41   [12:27:19.12] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 4 structureChanged: false Elapsed: 24ms
+Info 42   [12:27:19.12] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 43   [12:27:19.664] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 44   [12:27:19.692] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 5 structureChanged: false Elapsed: 28ms
+Info 45   [12:27:19.692] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 46   [12:27:20.61] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 47   [12:27:20.96] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 6 structureChanged: false Elapsed: 35ms
+Info 48   [12:27:20.96] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 49   [12:27:20.765] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 50   [12:27:20.795] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 7 structureChanged: false Elapsed: 30ms
+Info 51   [12:27:20.795] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 52   [12:27:21.0] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 53   [12:27:21.30] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 8 structureChanged: false Elapsed: 30ms
+Info 54   [12:27:21.31] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 55   [12:27:21.406] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 56   [12:27:21.431] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 9 structureChanged: false Elapsed: 25ms
+Info 57   [12:27:21.431] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 58   [12:27:26.762] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 59   [12:27:26.789] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 10 structureChanged: false Elapsed: 27ms
+Info 60   [12:27:26.789] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 61   [12:27:27.915] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 62   [12:27:27.943] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 11 structureChanged: false Elapsed: 28ms
+Info 63   [12:27:27.944] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 64   [12:27:28.369] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 65   [12:27:28.389] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 12 structureChanged: false Elapsed: 20ms
+Info 66   [12:27:28.389] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 67   [12:27:28.511] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 68   [12:27:28.527] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 13 structureChanged: false Elapsed: 16ms
+Info 69   [12:27:28.527] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 70   [12:27:28.793] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 71   [12:27:28.808] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 14 structureChanged: false Elapsed: 15ms
+Info 72   [12:27:28.808] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 73   [12:27:29.37] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 74   [12:27:29.50] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 15 structureChanged: false Elapsed: 13ms
+Info 75   [12:27:29.51] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 76   [12:27:29.319] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 77   [12:27:29.333] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 16 structureChanged: false Elapsed: 14ms
+Info 78   [12:27:29.333] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 79   [12:27:29.536] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 80   [12:27:29.548] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 17 structureChanged: false Elapsed: 12ms
+Info 81   [12:27:29.548] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 82   [12:27:29.838] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 83   [12:27:29.862] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 18 structureChanged: false Elapsed: 24ms
+Info 84   [12:27:29.862] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 85   [12:27:30.180] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 86   [12:27:30.198] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 19 structureChanged: false Elapsed: 18ms
+Info 87   [12:27:30.198] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 88   [12:27:30.414] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 89   [12:27:30.441] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 20 structureChanged: false Elapsed: 27ms
+Info 90   [12:27:30.441] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 91   [12:27:31.110] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 92   [12:27:31.135] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 21 structureChanged: false Elapsed: 25ms
+Info 93   [12:27:31.135] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 94   [12:27:31.388] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 95   [12:27:31.423] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 22 structureChanged: false Elapsed: 35ms
+Info 96   [12:27:31.423] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 97   [12:27:32.803] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 98   [12:27:32.834] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 23 structureChanged: false Elapsed: 31ms
+Info 99   [12:27:32.834] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 100  [12:27:33.47] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 101  [12:27:33.77] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 24 structureChanged: false Elapsed: 30ms
+Info 102  [12:27:33.78] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 103  [12:27:34.14] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 104  [12:27:34.36] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 25 structureChanged: false Elapsed: 22ms
+Info 105  [12:27:34.36] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 106  [12:27:34.622] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 107  [12:27:34.648] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 26 structureChanged: false Elapsed: 26ms
+Info 108  [12:27:34.648] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 109  [12:27:34.902] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 110  [12:27:34.933] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 27 structureChanged: false Elapsed: 31ms
+Info 111  [12:27:34.933] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 112  [12:27:35.997] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 113  [12:27:36.13] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 28 structureChanged: false Elapsed: 16ms
+Info 114  [12:27:36.13] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 115  [12:27:38.556] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 116  [12:27:38.567] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 29 structureChanged: false Elapsed: 10ms
+Info 117  [12:27:38.567] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 118  [12:27:38.970] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 119  [12:27:38.989] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 30 structureChanged: false Elapsed: 19ms
+Info 120  [12:27:38.989] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 121  [12:27:39.367] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 122  [12:27:39.403] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 31 structureChanged: false Elapsed: 36ms
+Info 123  [12:27:39.403] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 124  [12:27:40.34] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 125  [12:27:40.62] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 32 structureChanged: false Elapsed: 27ms
+Info 126  [12:27:40.62] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 127  [12:27:40.212] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 128  [12:27:40.226] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 33 structureChanged: false Elapsed: 14ms
+Info 129  [12:27:40.227] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 130  [12:27:40.771] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 131  [12:27:40.807] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 34 structureChanged: false Elapsed: 36ms
+Info 132  [12:27:40.807] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 133  [12:27:41.39] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 134  [12:27:41.62] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 35 structureChanged: false Elapsed: 23ms
+Info 135  [12:27:41.62] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 136  [12:27:42.374] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 137  [12:27:42.399] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 36 structureChanged: false Elapsed: 24ms
+Info 138  [12:27:42.399] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 139  [12:27:42.760] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 140  [12:27:42.791] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 37 structureChanged: false Elapsed: 31ms
+Info 141  [12:27:42.791] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 142  [12:27:42.932] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 143  [12:27:42.946] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 38 structureChanged: false Elapsed: 13ms
+Info 144  [12:27:42.946] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 145  [12:27:43.543] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 146  [12:27:43.567] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 39 structureChanged: false Elapsed: 23ms
+Info 147  [12:27:43.567] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 148  [12:27:43.797] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 149  [12:27:43.833] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 40 structureChanged: false Elapsed: 36ms
+Info 150  [12:27:43.833] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 151  [12:27:44.520] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 152  [12:27:44.548] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 41 structureChanged: false Elapsed: 28ms
+Info 153  [12:27:44.548] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 154  [12:27:45.73] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 155  [12:27:45.103] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 42 structureChanged: false Elapsed: 30ms
+Info 156  [12:27:45.103] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 157  [12:27:46.380] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 158  [12:27:46.392] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 43 structureChanged: false Elapsed: 12ms
+Info 159  [12:27:46.392] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 160  [12:27:46.749] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 161  [12:27:46.776] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 44 structureChanged: false Elapsed: 27ms
+Info 162  [12:27:46.776] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 163  [12:27:47.320] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 164  [12:27:47.342] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 45 structureChanged: false Elapsed: 22ms
+Info 165  [12:27:47.342] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 166  [12:27:47.649] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 167  [12:27:47.677] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 46 structureChanged: false Elapsed: 28ms
+Info 168  [12:27:47.678] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 169  [12:27:48.3] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 170  [12:27:48.20] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 47 structureChanged: false Elapsed: 17ms
+Info 171  [12:27:48.20] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 172  [12:27:48.268] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 173  [12:27:48.293] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 48 structureChanged: false Elapsed: 24ms
+Info 174  [12:27:48.293] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 175  [12:27:58.812] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 176  [12:27:58.848] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 49 structureChanged: false Elapsed: 35ms
+Info 177  [12:27:58.848] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 178  [12:28:0.796] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 179  [12:28:0.812] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 50 structureChanged: false Elapsed: 16ms
+Info 180  [12:28:0.812] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 181  [12:28:1.492] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 182  [12:28:1.516] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 51 structureChanged: false Elapsed: 24ms
+Info 183  [12:28:1.516] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 184  [12:28:2.180] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 185  [12:28:2.192] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 52 structureChanged: false Elapsed: 12ms
+Info 186  [12:28:2.192] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 187  [12:28:2.340] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 188  [12:28:2.352] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 53 structureChanged: false Elapsed: 12ms
+Info 189  [12:28:2.352] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 190  [12:28:2.385] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 191  [12:28:2.405] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 54 structureChanged: false Elapsed: 20ms
+Info 192  [12:28:2.405] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 193  [12:28:3.98] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 194  [12:28:3.109] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 55 structureChanged: false Elapsed: 11ms
+Info 195  [12:28:3.109] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 196  [12:28:3.151] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 197  [12:28:3.162] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 56 structureChanged: false Elapsed: 11ms
+Info 198  [12:28:3.162] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 199  [12:28:3.279] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 200  [12:28:3.292] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 57 structureChanged: false Elapsed: 13ms
+Info 201  [12:28:3.292] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 202  [12:28:3.548] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 203  [12:28:3.559] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 58 structureChanged: false Elapsed: 11ms
+Info 204  [12:28:3.559] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 205  [12:28:3.771] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 206  [12:28:3.781] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 59 structureChanged: false Elapsed: 10ms
+Info 207  [12:28:3.781] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 208  [12:28:5.738] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 209  [12:28:5.752] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 60 structureChanged: false Elapsed: 14ms
+Info 210  [12:28:5.752] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 211  [12:28:6.265] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 212  [12:28:6.297] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 61 structureChanged: false Elapsed: 31ms
+Info 213  [12:28:6.298] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 214  [12:28:6.737] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 215  [12:28:6.764] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 62 structureChanged: false Elapsed: 26ms
+Info 216  [12:28:6.764] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 217  [12:28:8.848] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 218  [12:28:8.860] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 63 structureChanged: false Elapsed: 12ms
+Info 219  [12:28:8.860] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 220  [12:28:9.763] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 221  [12:28:9.786] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 64 structureChanged: false Elapsed: 23ms
+Info 222  [12:28:9.786] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 223  [12:28:10.398] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 224  [12:28:10.428] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 65 structureChanged: false Elapsed: 29ms
+Info 225  [12:28:10.428] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 226  [12:28:10.755] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 227  [12:28:10.781] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 66 structureChanged: false Elapsed: 26ms
+Info 228  [12:28:10.781] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 229  [12:28:11.140] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 230  [12:28:11.171] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 67 structureChanged: false Elapsed: 30ms
+Info 231  [12:28:11.171] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 232  [12:28:11.381] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 233  [12:28:11.408] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 68 structureChanged: false Elapsed: 26ms
+Info 234  [12:28:11.408] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 235  [12:28:11.797] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 236  [12:28:11.827] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 69 structureChanged: false Elapsed: 30ms
+Info 237  [12:28:11.827] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 238  [12:28:13.896] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 239  [12:28:13.909] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 70 structureChanged: false Elapsed: 13ms
+Info 240  [12:28:13.909] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 241  [12:28:14.824] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 242  [12:28:14.837] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 71 structureChanged: false Elapsed: 13ms
+Info 243  [12:28:14.837] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 244  [12:28:42.147] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 245  [12:28:42.161] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 72 structureChanged: false Elapsed: 14ms
+Info 246  [12:28:42.161] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 247  [12:28:42.468] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 248  [12:28:42.501] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 73 structureChanged: false Elapsed: 32ms
+Info 249  [12:28:42.501] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 250  [12:28:49.905] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 251  [12:28:49.928] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 74 structureChanged: false Elapsed: 23ms
+Info 252  [12:28:49.928] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 253  [12:28:51.57] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 254  [12:28:51.93] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 75 structureChanged: false Elapsed: 36ms
+Info 255  [12:28:51.93] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 256  [12:28:51.982] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 257  [12:28:52.2] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 76 structureChanged: false Elapsed: 19ms
+Info 258  [12:28:52.2] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 259  [12:28:52.446] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 260  [12:28:52.476] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 77 structureChanged: false Elapsed: 30ms
+Info 261  [12:28:52.476] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 262  [12:28:53.45] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 263  [12:28:53.66] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 78 structureChanged: false Elapsed: 21ms
+Info 264  [12:28:53.66] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 265  [12:28:53.723] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 266  [12:28:53.756] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 79 structureChanged: false Elapsed: 33ms
+Info 267  [12:28:53.756] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 268  [12:28:53.964] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 269  [12:28:53.986] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 80 structureChanged: false Elapsed: 22ms
+Info 270  [12:28:53.986] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 271  [12:28:54.716] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 272  [12:28:54.745] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 81 structureChanged: false Elapsed: 29ms
+Info 273  [12:28:54.745] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 274  [12:28:56.106] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 275  [12:28:56.127] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 82 structureChanged: false Elapsed: 21ms
+Info 276  [12:28:56.127] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 277  [12:28:56.489] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 278  [12:28:56.501] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 83 structureChanged: false Elapsed: 12ms
+Info 279  [12:28:56.501] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 280  [12:28:57.36] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 281  [12:28:57.49] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 84 structureChanged: false Elapsed: 13ms
+Info 282  [12:28:57.49] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 283  [12:28:58.63] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 284  [12:28:58.91] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 85 structureChanged: false Elapsed: 28ms
+Info 285  [12:28:58.91] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 286  [12:28:59.189] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 287  [12:28:59.215] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 86 structureChanged: false Elapsed: 26ms
+Info 288  [12:28:59.215] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 289  [12:28:59.441] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 290  [12:28:59.471] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 87 structureChanged: false Elapsed: 30ms
+Info 291  [12:28:59.471] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 292  [12:28:59.691] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 293  [12:28:59.719] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 88 structureChanged: false Elapsed: 28ms
+Info 294  [12:28:59.719] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 295  [12:29:3.532] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 296  [12:29:3.564] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 89 structureChanged: false Elapsed: 31ms
+Info 297  [12:29:3.564] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 298  [12:29:3.775] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 299  [12:29:3.804] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 90 structureChanged: false Elapsed: 29ms
+Info 300  [12:29:3.804] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 301  [12:29:4.213] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 302  [12:29:4.243] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 91 structureChanged: false Elapsed: 30ms
+Info 303  [12:29:4.243] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 304  [12:29:4.570] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 305  [12:29:4.592] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 92 structureChanged: false Elapsed: 22ms
+Info 306  [12:29:4.592] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 307  [12:29:5.148] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 308  [12:29:5.174] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 93 structureChanged: false Elapsed: 26ms
+Info 309  [12:29:5.174] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 310  [12:29:5.446] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 311  [12:29:5.472] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 94 structureChanged: false Elapsed: 26ms
+Info 312  [12:29:5.472] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 313  [12:29:5.802] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 314  [12:29:5.832] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 95 structureChanged: false Elapsed: 30ms
+Info 315  [12:29:5.832] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 316  [12:29:8.292] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 317  [12:29:8.304] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 96 structureChanged: false Elapsed: 12ms
+Info 318  [12:29:8.304] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 319  [12:29:8.781] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 320  [12:29:8.795] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 97 structureChanged: false Elapsed: 14ms
+Info 321  [12:29:8.795] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 322  [12:29:9.538] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 323  [12:29:9.567] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 98 structureChanged: false Elapsed: 29ms
+Info 324  [12:29:9.567] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 325  [12:29:9.786] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 326  [12:29:9.813] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 99 structureChanged: false Elapsed: 27ms
+Info 327  [12:29:9.813] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 328  [12:29:10.133] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 329  [12:29:10.146] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 100 structureChanged: false Elapsed: 13ms
+Info 330  [12:29:10.146] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 331  [12:29:11.557] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 332  [12:29:11.569] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 101 structureChanged: false Elapsed: 12ms
+Info 333  [12:29:11.569] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 334  [12:29:12.498] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 335  [12:29:12.529] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 102 structureChanged: false Elapsed: 31ms
+Info 336  [12:29:12.529] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 337  [12:29:12.739] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 338  [12:29:12.774] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 103 structureChanged: false Elapsed: 35ms
+Info 339  [12:29:12.774] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 340  [12:29:13.89] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 341  [12:29:13.102] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 104 structureChanged: false Elapsed: 13ms
+Info 342  [12:29:13.102] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 343  [12:29:13.446] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 344  [12:29:13.472] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 105 structureChanged: false Elapsed: 26ms
+Info 345  [12:29:13.472] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 346  [12:29:13.532] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 347  [12:29:13.547] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 106 structureChanged: false Elapsed: 15ms
+Info 348  [12:29:13.547] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 349  [12:29:13.860] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 350  [12:29:13.891] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 107 structureChanged: false Elapsed: 30ms
+Info 351  [12:29:13.892] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 352  [12:29:14.498] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 353  [12:29:14.522] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 108 structureChanged: false Elapsed: 24ms
+Info 354  [12:29:14.522] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 355  [12:29:16.730] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 356  [12:29:16.751] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 109 structureChanged: false Elapsed: 21ms
+Info 357  [12:29:16.751] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 358  [12:29:17.18] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 359  [12:29:17.45] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 110 structureChanged: false Elapsed: 27ms
+Info 360  [12:29:17.45] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 361  [12:29:17.459] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 362  [12:29:17.488] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 111 structureChanged: false Elapsed: 29ms
+Info 363  [12:29:17.488] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 364  [12:29:18.110] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 365  [12:29:18.138] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 112 structureChanged: false Elapsed: 27ms
+Info 366  [12:29:18.138] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 367  [12:29:18.567] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 368  [12:29:18.596] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 113 structureChanged: false Elapsed: 29ms
+Info 369  [12:29:18.596] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 370  [12:29:18.800] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 371  [12:29:18.829] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 114 structureChanged: false Elapsed: 29ms
+Info 372  [12:29:18.829] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 373  [12:29:19.38] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 374  [12:29:19.65] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 115 structureChanged: false Elapsed: 27ms
+Info 375  [12:29:19.66] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 376  [12:29:19.666] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 377  [12:29:19.691] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 116 structureChanged: false Elapsed: 25ms
+Info 378  [12:29:19.691] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 379  [12:29:27.426] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 380  [12:29:27.463] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 117 structureChanged: false Elapsed: 37ms
+Info 381  [12:29:27.463] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 382  [12:29:27.805] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 383  [12:29:27.828] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 118 structureChanged: false Elapsed: 23ms
+Info 384  [12:29:27.828] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 385  [12:29:29.675] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 386  [12:29:29.708] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 119 structureChanged: false Elapsed: 32ms
+Info 387  [12:29:29.708] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 388  [12:29:29.914] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 389  [12:29:29.937] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 120 structureChanged: false Elapsed: 21ms
+Info 390  [12:29:29.937] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 391  [12:29:30.503] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 392  [12:29:30.525] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 121 structureChanged: false Elapsed: 22ms
+Info 393  [12:29:30.526] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 394  [12:29:30.663] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 395  [12:29:30.675] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 122 structureChanged: false Elapsed: 12ms
+Info 396  [12:29:30.676] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 397  [12:29:31.137] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 398  [12:29:31.160] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 123 structureChanged: false Elapsed: 23ms
+Info 399  [12:29:31.160] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 400  [12:29:33.47] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 401  [12:29:33.70] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 124 structureChanged: false Elapsed: 22ms
+Info 402  [12:29:33.70] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 403  [12:29:33.839] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 404  [12:29:33.863] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 125 structureChanged: false Elapsed: 24ms
+Info 405  [12:29:33.863] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 406  [12:29:34.853] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 407  [12:29:34.882] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 126 structureChanged: false Elapsed: 29ms
+Info 408  [12:29:34.882] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 409  [12:29:35.249] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 410  [12:29:35.260] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 127 structureChanged: false Elapsed: 11ms
+Info 411  [12:29:35.260] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 412  [12:29:35.604] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 413  [12:29:35.626] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 128 structureChanged: false Elapsed: 21ms
+Info 414  [12:29:35.626] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 415  [12:29:35.830] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 416  [12:29:35.857] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 129 structureChanged: false Elapsed: 27ms
+Info 417  [12:29:35.857] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 418  [12:29:36.160] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 419  [12:29:36.187] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 130 structureChanged: false Elapsed: 27ms
+Info 420  [12:29:36.187] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 421  [12:29:36.492] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 422  [12:29:36.509] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 131 structureChanged: false Elapsed: 15ms
+Info 423  [12:29:36.509] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 424  [12:29:37.69] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 425  [12:29:37.81] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 132 structureChanged: false Elapsed: 12ms
+Info 426  [12:29:37.81] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 427  [12:29:37.483] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 428  [12:29:37.512] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 133 structureChanged: false Elapsed: 29ms
+Info 429  [12:29:37.512] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 430  [12:29:38.232] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 431  [12:29:38.252] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 134 structureChanged: false Elapsed: 19ms
+Info 432  [12:29:38.252] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 433  [12:29:38.716] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 434  [12:29:38.741] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 135 structureChanged: false Elapsed: 24ms
+Info 435  [12:29:38.741] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 436  [12:29:39.288] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 437  [12:29:39.310] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 136 structureChanged: false Elapsed: 22ms
+Info 438  [12:29:39.310] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 439  [12:29:39.671] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 440  [12:29:39.696] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 137 structureChanged: false Elapsed: 25ms
+Info 441  [12:29:39.696] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 442  [12:29:43.88] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 443  [12:29:43.111] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 138 structureChanged: false Elapsed: 23ms
+Info 444  [12:29:43.111] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 445  [12:29:44.198] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 446  [12:29:44.209] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 139 structureChanged: false Elapsed: 11ms
+Info 447  [12:29:44.209] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 448  [12:29:45.104] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 449  [12:29:45.119] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 140 structureChanged: false Elapsed: 15ms
+Info 450  [12:29:45.119] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 451  [12:29:45.646] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 452  [12:29:45.681] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 141 structureChanged: false Elapsed: 35ms
+Info 453  [12:29:45.682] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 454  [12:29:46.68] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 455  [12:29:46.100] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 142 structureChanged: false Elapsed: 32ms
+Info 456  [12:29:46.100] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 457  [12:29:46.304] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 458  [12:29:46.326] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 143 structureChanged: false Elapsed: 22ms
+Info 459  [12:29:46.326] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 460  [12:29:46.760] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 461  [12:29:46.782] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 144 structureChanged: false Elapsed: 22ms
+Info 462  [12:29:46.782] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 463  [12:29:46.898] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 464  [12:29:46.917] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 145 structureChanged: false Elapsed: 19ms
+Info 465  [12:29:46.917] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 466  [12:29:47.319] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 467  [12:29:47.344] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 146 structureChanged: false Elapsed: 25ms
+Info 468  [12:29:47.344] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 469  [12:29:47.549] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 470  [12:29:47.564] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 147 structureChanged: false Elapsed: 15ms
+Info 471  [12:29:47.564] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 472  [12:29:48.124] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 473  [12:29:48.148] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 148 structureChanged: false Elapsed: 24ms
+Info 474  [12:29:48.148] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 475  [12:29:48.352] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 476  [12:29:48.368] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 149 structureChanged: false Elapsed: 16ms
+Info 477  [12:29:48.368] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 478  [12:29:48.811] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 479  [12:29:48.839] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 150 structureChanged: false Elapsed: 28ms
+Info 480  [12:29:48.839] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 481  [12:29:49.766] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 482  [12:29:49.808] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 151 structureChanged: false Elapsed: 42ms
+Info 483  [12:29:49.808] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 484  [12:29:52.189] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 485  [12:29:52.200] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 152 structureChanged: false Elapsed: 11ms
+Info 486  [12:29:52.200] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 487  [12:29:52.203] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 488  [12:29:52.217] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 153 structureChanged: false Elapsed: 14ms
+Info 489  [12:29:52.217] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 490  [12:29:52.437] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 491  [12:29:52.451] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 154 structureChanged: false Elapsed: 14ms
+Info 492  [12:29:52.451] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 493  [12:29:52.593] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 494  [12:29:52.610] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 155 structureChanged: false Elapsed: 17ms
+Info 495  [12:29:52.610] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 496  [12:29:52.750] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 497  [12:29:52.764] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 156 structureChanged: false Elapsed: 14ms
+Info 498  [12:29:52.764] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 499  [12:29:52.967] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 500  [12:29:52.994] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 157 structureChanged: false Elapsed: 27ms
+Info 501  [12:29:52.994] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 502  [12:29:53.276] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 503  [12:29:53.297] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 158 structureChanged: false Elapsed: 21ms
+Info 504  [12:29:53.297] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 505  [12:29:53.503] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 506  [12:29:53.524] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 159 structureChanged: false Elapsed: 21ms
+Info 507  [12:29:53.524] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 508  [12:29:53.578] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 509  [12:29:53.591] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 160 structureChanged: false Elapsed: 13ms
+Info 510  [12:29:53.591] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 511  [12:29:54.566] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 512  [12:29:54.596] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 161 structureChanged: false Elapsed: 30ms
+Info 513  [12:29:54.596] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 514  [12:29:55.368] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 515  [12:29:55.393] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 162 structureChanged: false Elapsed: 25ms
+Info 516  [12:29:55.393] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 517  [12:29:55.544] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 518  [12:29:55.555] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 163 structureChanged: false Elapsed: 11ms
+Info 519  [12:29:55.555] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 520  [12:29:56.173] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 521  [12:29:56.195] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 164 structureChanged: false Elapsed: 22ms
+Info 522  [12:29:56.195] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 523  [12:29:56.765] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 524  [12:29:56.794] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 165 structureChanged: false Elapsed: 29ms
+Info 525  [12:29:56.795] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 526  [12:29:57.86] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 527  [12:29:57.98] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 166 structureChanged: false Elapsed: 12ms
+Info 528  [12:29:57.98] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 529  [12:29:58.793] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 530  [12:29:58.817] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 167 structureChanged: false Elapsed: 24ms
+Info 531  [12:29:58.817] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 532  [12:29:59.175] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 533  [12:29:59.200] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 168 structureChanged: false Elapsed: 25ms
+Info 534  [12:29:59.200] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 535  [12:30:2.548] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 536  [12:30:2.573] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 169 structureChanged: false Elapsed: 25ms
+Info 537  [12:30:2.573] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 538  [12:30:6.417] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 539  [12:30:6.430] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 170 structureChanged: false Elapsed: 13ms
+Info 540  [12:30:6.430] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 541  [12:30:7.34] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 542  [12:30:7.51] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 171 structureChanged: false Elapsed: 17ms
+Info 543  [12:30:7.51] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 544  [12:30:7.539] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 545  [12:30:7.554] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 172 structureChanged: false Elapsed: 15ms
+Info 546  [12:30:7.554] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 547  [12:30:8.351] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 548  [12:30:8.383] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 173 structureChanged: false Elapsed: 32ms
+Info 549  [12:30:8.383] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 550  [12:30:8.587] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 551  [12:30:8.607] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 174 structureChanged: false Elapsed: 20ms
+Info 552  [12:30:8.608] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 553  [12:30:8.891] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 554  [12:30:8.916] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 175 structureChanged: false Elapsed: 25ms
+Info 555  [12:30:8.916] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 556  [12:30:8.937] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 557  [12:30:8.957] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 176 structureChanged: false Elapsed: 20ms
+Info 558  [12:30:8.957] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 559  [12:30:9.862] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 560  [12:30:9.886] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 177 structureChanged: false Elapsed: 24ms
+Info 561  [12:30:9.886] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 562  [12:30:10.102] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 563  [12:30:10.126] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 178 structureChanged: false Elapsed: 24ms
+Info 564  [12:30:10.126] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 565  [12:30:10.722] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 566  [12:30:10.746] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 179 structureChanged: false Elapsed: 24ms
+Info 567  [12:30:10.747] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 568  [12:30:11.189] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 569  [12:30:11.219] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 180 structureChanged: false Elapsed: 30ms
+Info 570  [12:30:11.219] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 571  [12:30:11.955] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 572  [12:30:11.966] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 181 structureChanged: false Elapsed: 11ms
+Info 573  [12:30:11.966] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 574  [12:30:12.211] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 575  [12:30:12.223] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 182 structureChanged: false Elapsed: 12ms
+Info 576  [12:30:12.223] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 577  [12:30:12.603] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 578  [12:30:12.628] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 183 structureChanged: false Elapsed: 25ms
+Info 579  [12:30:12.628] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 580  [12:30:13.366] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 581  [12:30:13.383] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 184 structureChanged: false Elapsed: 16ms
+Info 582  [12:30:13.383] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 583  [12:30:14.477] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 584  [12:30:14.487] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 185 structureChanged: false Elapsed: 10ms
+Info 585  [12:30:14.488] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 586  [12:30:17.641] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 587  [12:30:17.657] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 186 structureChanged: false Elapsed: 16ms
+Info 588  [12:30:17.657] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 589  [12:30:17.944] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 590  [12:30:17.959] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 187 structureChanged: false Elapsed: 15ms
+Info 591  [12:30:17.959] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 592  [12:30:18.572] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 593  [12:30:18.583] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 188 structureChanged: false Elapsed: 11ms
+Info 594  [12:30:18.583] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 595  [12:30:18.882] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 596  [12:30:18.892] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 189 structureChanged: false Elapsed: 10ms
+Info 597  [12:30:18.893] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 598  [12:30:19.286] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 599  [12:30:19.296] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 190 structureChanged: false Elapsed: 10ms
+Info 600  [12:30:19.296] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 601  [12:30:27.618] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 602  [12:30:27.637] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 191 structureChanged: false Elapsed: 18ms
+Info 603  [12:30:27.637] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 604  [12:30:28.686] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 605  [12:30:28.706] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 192 structureChanged: false Elapsed: 19ms
+Info 606  [12:30:28.707] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 607  [12:30:29.17] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 608  [12:30:29.42] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 193 structureChanged: false Elapsed: 25ms
+Info 609  [12:30:29.42] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 610  [12:30:29.732] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 611  [12:30:29.747] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 194 structureChanged: false Elapsed: 15ms
+Info 612  [12:30:29.747] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 613  [12:30:29.808] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 614  [12:30:29.827] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 195 structureChanged: false Elapsed: 19ms
+Info 615  [12:30:29.827] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 616  [12:30:30.917] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 617  [12:30:30.940] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 196 structureChanged: false Elapsed: 23ms
+Info 618  [12:30:30.940] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 619  [12:30:35.686] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 620  [12:30:35.701] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 197 structureChanged: false Elapsed: 15ms
+Info 621  [12:30:35.702] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 622  [12:30:36.25] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 623  [12:30:36.36] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 198 structureChanged: false Elapsed: 11ms
+Info 624  [12:30:36.36] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 625  [12:30:36.491] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 626  [12:30:36.506] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 199 structureChanged: false Elapsed: 15ms
+Info 627  [12:30:36.506] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 628  [12:30:37.107] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 629  [12:30:37.120] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 200 structureChanged: false Elapsed: 12ms
+Info 630  [12:30:37.120] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 631  [12:30:37.739] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 632  [12:30:37.750] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 201 structureChanged: false Elapsed: 11ms
+Info 633  [12:30:37.750] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 634  [12:30:38.121] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 635  [12:30:38.134] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 202 structureChanged: false Elapsed: 13ms
+Info 636  [12:30:38.134] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 637  [12:30:40.542] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 638  [12:30:40.558] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 203 structureChanged: false Elapsed: 15ms
+Info 639  [12:30:40.558] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 640  [12:30:41.270] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 641  [12:30:41.291] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 204 structureChanged: false Elapsed: 21ms
+Info 642  [12:30:41.291] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 643  [12:30:41.541] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 644  [12:30:41.553] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 205 structureChanged: false Elapsed: 12ms
+Info 645  [12:30:41.553] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 646  [12:30:42.542] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 647  [12:30:42.556] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 206 structureChanged: false Elapsed: 14ms
+Info 648  [12:30:42.556] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 649  [12:30:42.911] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 650  [12:30:42.925] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 207 structureChanged: false Elapsed: 14ms
+Info 651  [12:30:42.925] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 652  [12:30:43.257] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 653  [12:30:43.270] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 208 structureChanged: false Elapsed: 13ms
+Info 654  [12:30:43.270] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 655  [12:30:43.622] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 656  [12:30:43.634] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 209 structureChanged: false Elapsed: 12ms
+Info 657  [12:30:43.634] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 658  [12:30:44.384] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 659  [12:30:44.393] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 210 structureChanged: false Elapsed: 9ms
+Info 660  [12:30:44.393] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 661  [12:30:45.332] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 662  [12:30:45.348] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 211 structureChanged: false Elapsed: 15ms
+Info 663  [12:30:45.348] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 664  [12:30:45.989] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 665  [12:30:46.5] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 212 structureChanged: false Elapsed: 16ms
+Info 666  [12:30:46.5] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 667  [12:30:55.829] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 668  [12:30:55.845] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 213 structureChanged: false Elapsed: 16ms
+Info 669  [12:30:55.845] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 670  [12:30:56.120] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 671  [12:30:56.144] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 214 structureChanged: false Elapsed: 24ms
+Info 672  [12:30:56.144] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 673  [12:30:57.570] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 674  [12:30:57.600] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 215 structureChanged: false Elapsed: 29ms
+Info 675  [12:30:57.600] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 676  [12:30:57.949] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 677  [12:30:57.979] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 216 structureChanged: false Elapsed: 30ms
+Info 678  [12:30:57.979] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 679  [12:31:6.148] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 680  [12:31:6.159] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 217 structureChanged: false Elapsed: 11ms
+Info 681  [12:31:6.159] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 682  [12:31:9.853] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 683  [12:31:9.863] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 218 structureChanged: false Elapsed: 10ms
+Info 684  [12:31:9.863] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 685  [12:31:10.575] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 686  [12:31:10.603] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 219 structureChanged: false Elapsed: 28ms
+Info 687  [12:31:10.603] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 688  [12:31:10.836] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 689  [12:31:10.860] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 220 structureChanged: false Elapsed: 24ms
+Info 690  [12:31:10.860] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 691  [12:31:11.623] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 692  [12:31:11.646] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 221 structureChanged: false Elapsed: 23ms
+Info 693  [12:31:11.646] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 694  [12:31:13.339] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 695  [12:31:13.356] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 222 structureChanged: false Elapsed: 17ms
+Info 696  [12:31:13.356] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 697  [12:31:13.666] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 698  [12:31:13.678] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 223 structureChanged: false Elapsed: 12ms
+Info 699  [12:31:13.678] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 700  [12:31:14.352] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 701  [12:31:14.378] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 224 structureChanged: false Elapsed: 26ms
+Info 702  [12:31:14.379] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 703  [12:31:14.584] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 704  [12:31:14.611] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 225 structureChanged: false Elapsed: 26ms
+Info 705  [12:31:14.611] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 706  [12:31:14.878] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 707  [12:31:14.908] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 226 structureChanged: false Elapsed: 29ms
+Info 708  [12:31:14.908] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 709  [12:31:16.813] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 710  [12:31:16.838] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 227 structureChanged: false Elapsed: 24ms
+Info 711  [12:31:16.838] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 712  [12:31:17.955] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 713  [12:31:17.986] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 228 structureChanged: false Elapsed: 31ms
+Info 714  [12:31:17.986] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 715  [12:31:18.194] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 716  [12:31:18.204] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 229 structureChanged: false Elapsed: 10ms
+Info 717  [12:31:18.204] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 718  [12:31:19.351] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 719  [12:31:19.367] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 230 structureChanged: false Elapsed: 16ms
+Info 720  [12:31:19.368] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 721  [12:31:19.927] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 722  [12:31:19.954] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 231 structureChanged: false Elapsed: 27ms
+Info 723  [12:31:19.954] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 724  [12:31:20.712] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 725  [12:31:20.728] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 232 structureChanged: false Elapsed: 16ms
+Info 726  [12:31:20.728] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 727  [12:31:21.105] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 728  [12:31:21.130] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 233 structureChanged: false Elapsed: 25ms
+Info 729  [12:31:21.130] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 730  [12:31:21.783] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 731  [12:31:21.811] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 234 structureChanged: false Elapsed: 28ms
+Info 732  [12:31:21.811] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 733  [12:31:36.918] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 734  [12:31:36.932] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 235 structureChanged: false Elapsed: 14ms
+Info 735  [12:31:36.932] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 736  [12:31:37.230] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 737  [12:31:37.240] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 236 structureChanged: false Elapsed: 10ms
+Info 738  [12:31:37.240] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 739  [12:31:37.430] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 740  [12:31:37.450] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 237 structureChanged: false Elapsed: 20ms
+Info 741  [12:31:37.450] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 742  [12:31:39.358] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 743  [12:31:39.381] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 238 structureChanged: false Elapsed: 22ms
+Info 744  [12:31:39.381] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 745  [12:31:39.606] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 746  [12:31:39.622] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 239 structureChanged: false Elapsed: 16ms
+Info 747  [12:31:39.623] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 748  [12:31:40.256] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 749  [12:31:40.280] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 240 structureChanged: false Elapsed: 23ms
+Info 750  [12:31:40.280] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 751  [12:31:40.632] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 752  [12:31:40.660] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 241 structureChanged: false Elapsed: 28ms
+Info 753  [12:31:40.660] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 754  [12:31:40.979] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 755  [12:31:40.989] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 242 structureChanged: false Elapsed: 10ms
+Info 756  [12:31:40.989] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 757  [12:31:45.634] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 758  [12:31:45.645] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 243 structureChanged: false Elapsed: 11ms
+Info 759  [12:31:45.645] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 760  [12:31:47.762] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 761  [12:31:47.784] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 244 structureChanged: false Elapsed: 22ms
+Info 762  [12:31:47.784] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 763  [12:31:49.416] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 764  [12:31:49.429] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 245 structureChanged: false Elapsed: 13ms
+Info 765  [12:31:49.429] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 766  [12:31:49.950] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 767  [12:31:49.973] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 246 structureChanged: false Elapsed: 22ms
+Info 768  [12:31:49.973] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 769  [12:31:50.357] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 770  [12:31:50.380] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 247 structureChanged: false Elapsed: 23ms
+Info 771  [12:31:50.381] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 772  [12:31:50.696] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 773  [12:31:50.707] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 248 structureChanged: false Elapsed: 11ms
+Info 774  [12:31:50.707] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 775  [12:31:51.862] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 776  [12:31:51.874] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 249 structureChanged: false Elapsed: 12ms
+Info 777  [12:31:51.874] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 778  [12:31:53.718] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 779  [12:31:53.731] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 250 structureChanged: false Elapsed: 13ms
+Info 780  [12:31:53.731] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 781  [12:31:53.967] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 782  [12:31:53.979] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 251 structureChanged: false Elapsed: 12ms
+Info 783  [12:31:53.979] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 784  [12:31:54.283] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 785  [12:31:54.302] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 252 structureChanged: false Elapsed: 19ms
+Info 786  [12:31:54.302] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 787  [12:31:54.753] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 788  [12:31:54.766] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 253 structureChanged: false Elapsed: 13ms
+Info 789  [12:31:54.766] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 790  [12:31:55.53] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 791  [12:31:55.66] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 254 structureChanged: false Elapsed: 13ms
+Info 792  [12:31:55.66] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 793  [12:31:55.436] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 794  [12:31:55.448] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 255 structureChanged: false Elapsed: 12ms
+Info 795  [12:31:55.448] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 796  [12:31:56.55] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 797  [12:31:56.75] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 256 structureChanged: false Elapsed: 20ms
+Info 798  [12:31:56.75] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 799  [12:31:56.669] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 800  [12:31:56.682] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 257 structureChanged: false Elapsed: 13ms
+Info 801  [12:31:56.682] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 802  [12:31:56.917] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 803  [12:31:56.929] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 258 structureChanged: false Elapsed: 12ms
+Info 804  [12:31:56.929] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 805  [12:31:57.902] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 806  [12:31:57.920] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 259 structureChanged: false Elapsed: 18ms
+Info 807  [12:31:57.920] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 808  [12:31:59.414] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 809  [12:31:59.426] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 260 structureChanged: false Elapsed: 12ms
+Info 810  [12:31:59.426] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 811  [12:31:59.982] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 812  [12:31:59.994] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 261 structureChanged: false Elapsed: 12ms
+Info 813  [12:31:59.994] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 814  [12:32:2.157] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 815  [12:32:2.172] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 262 structureChanged: false Elapsed: 15ms
+Info 816  [12:32:2.172] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 817  [12:32:3.141] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 818  [12:32:3.158] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 263 structureChanged: false Elapsed: 17ms
+Info 819  [12:32:3.158] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 820  [12:32:3.810] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 821  [12:32:3.829] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 264 structureChanged: false Elapsed: 19ms
+Info 822  [12:32:3.829] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 823  [12:32:4.252] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 824  [12:32:4.262] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 265 structureChanged: false Elapsed: 10ms
+Info 825  [12:32:4.262] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 826  [12:32:4.793] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 827  [12:32:4.803] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 266 structureChanged: false Elapsed: 10ms
+Info 828  [12:32:4.803] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 829  [12:32:5.6] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 830  [12:32:5.23] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 267 structureChanged: false Elapsed: 17ms
+Info 831  [12:32:5.23] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 832  [12:32:6.573] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 833  [12:32:6.593] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 268 structureChanged: false Elapsed: 20ms
+Info 834  [12:32:6.593] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 835  [12:32:7.279] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 836  [12:32:7.293] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 269 structureChanged: false Elapsed: 14ms
+Info 837  [12:32:7.293] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 838  [12:32:8.183] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 839  [12:32:8.194] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 270 structureChanged: false Elapsed: 11ms
+Info 840  [12:32:8.194] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 841  [12:32:9.145] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 842  [12:32:9.154] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 271 structureChanged: false Elapsed: 9ms
+Info 843  [12:32:9.154] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 844  [12:32:9.493] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 845  [12:32:9.517] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 272 structureChanged: false Elapsed: 24ms
+Info 846  [12:32:9.518] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 847  [12:32:10.582] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 848  [12:32:10.607] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 273 structureChanged: false Elapsed: 24ms
+Info 849  [12:32:10.607] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 850  [12:32:11.82] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 851  [12:32:11.99] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 274 structureChanged: false Elapsed: 17ms
+Info 852  [12:32:11.99] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 853  [12:32:11.333] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 854  [12:32:11.364] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 275 structureChanged: false Elapsed: 31ms
+Info 855  [12:32:11.364] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 856  [12:32:11.569] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 857  [12:32:11.592] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 276 structureChanged: false Elapsed: 23ms
+Info 858  [12:32:11.592] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 859  [12:32:30.367] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 860  [12:32:30.378] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 277 structureChanged: false Elapsed: 11ms
+Info 861  [12:32:30.378] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 862  [12:32:30.789] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 863  [12:32:30.801] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 278 structureChanged: false Elapsed: 12ms
+Info 864  [12:32:30.801] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 865  [12:32:31.200] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 866  [12:32:31.221] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 279 structureChanged: false Elapsed: 21ms
+Info 867  [12:32:31.221] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 868  [12:32:31.635] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 869  [12:32:31.647] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 280 structureChanged: false Elapsed: 12ms
+Info 870  [12:32:31.647] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 871  [12:32:32.990] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 872  [12:32:33.5] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 281 structureChanged: false Elapsed: 15ms
+Info 873  [12:32:33.5] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 874  [12:32:34.94] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 875  [12:32:34.108] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 282 structureChanged: false Elapsed: 14ms
+Info 876  [12:32:34.108] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 877  [12:32:34.439] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 878  [12:32:34.452] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 283 structureChanged: false Elapsed: 12ms
+Info 879  [12:32:34.452] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 880  [12:32:34.891] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 881  [12:32:34.904] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 284 structureChanged: false Elapsed: 13ms
+Info 882  [12:32:34.904] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 883  [12:32:35.409] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 884  [12:32:35.419] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 285 structureChanged: false Elapsed: 10ms
+Info 885  [12:32:35.419] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 886  [12:32:36.677] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 887  [12:32:36.700] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 286 structureChanged: false Elapsed: 23ms
+Info 888  [12:32:36.700] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 889  [12:32:37.76] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 890  [12:32:37.104] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 287 structureChanged: false Elapsed: 27ms
+Info 891  [12:32:37.104] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 892  [12:32:37.429] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 893  [12:32:37.440] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 288 structureChanged: false Elapsed: 11ms
+Info 894  [12:32:37.440] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 895  [12:32:38.380] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 896  [12:32:38.394] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 289 structureChanged: false Elapsed: 14ms
+Info 897  [12:32:38.394] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 898  [12:32:38.661] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 899  [12:32:38.672] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 290 structureChanged: false Elapsed: 11ms
+Info 900  [12:32:38.672] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 901  [12:32:39.259] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 902  [12:32:39.270] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 291 structureChanged: false Elapsed: 11ms
+Info 903  [12:32:39.270] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 904  [12:32:39.738] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 905  [12:32:39.752] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 292 structureChanged: false Elapsed: 14ms
+Info 906  [12:32:39.752] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 907  [12:32:40.313] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 908  [12:32:40.324] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 293 structureChanged: false Elapsed: 11ms
+Info 909  [12:32:40.324] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 910  [12:32:42.782] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 911  [12:32:42.795] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 294 structureChanged: false Elapsed: 13ms
+Info 912  [12:32:42.795] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 913  [12:32:42.999] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 914  [12:32:43.18] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 295 structureChanged: false Elapsed: 19ms
+Info 915  [12:32:43.18] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 916  [12:32:43.721] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 917  [12:32:43.731] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 296 structureChanged: false Elapsed: 10ms
+Info 918  [12:32:43.731] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 919  [12:32:46.465] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 920  [12:32:46.478] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 297 structureChanged: false Elapsed: 13ms
+Info 921  [12:32:46.479] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 922  [12:32:46.889] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 923  [12:32:46.918] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 298 structureChanged: false Elapsed: 29ms
+Info 924  [12:32:46.918] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 925  [12:32:47.604] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 926  [12:32:47.616] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 299 structureChanged: false Elapsed: 12ms
+Info 927  [12:32:47.616] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 928  [12:32:48.76] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 929  [12:32:48.86] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 300 structureChanged: false Elapsed: 10ms
+Info 930  [12:32:48.86] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 931  [12:32:48.623] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 932  [12:32:48.647] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 301 structureChanged: false Elapsed: 24ms
+Info 933  [12:32:48.647] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 934  [12:32:49.132] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 935  [12:32:49.142] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 302 structureChanged: false Elapsed: 10ms
+Info 936  [12:32:49.142] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 937  [12:32:49.735] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 938  [12:32:49.746] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 303 structureChanged: false Elapsed: 11ms
+Info 939  [12:32:49.746] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 940  [12:32:50.156] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 941  [12:32:50.172] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 304 structureChanged: false Elapsed: 16ms
+Info 942  [12:32:50.172] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 943  [12:32:50.388] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 944  [12:32:50.406] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 305 structureChanged: false Elapsed: 18ms
+Info 945  [12:32:50.406] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 946  [12:32:50.933] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 947  [12:32:50.945] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 306 structureChanged: false Elapsed: 12ms
+Info 948  [12:32:50.945] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 949  [12:32:51.353] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 950  [12:32:51.364] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 307 structureChanged: false Elapsed: 11ms
+Info 951  [12:32:51.364] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 952  [12:32:52.573] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 953  [12:32:52.590] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 308 structureChanged: false Elapsed: 17ms
+Info 954  [12:32:52.590] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 955  [12:32:53.312] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 956  [12:32:53.326] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 309 structureChanged: false Elapsed: 14ms
+Info 957  [12:32:53.327] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 958  [12:32:54.165] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 959  [12:32:54.177] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 310 structureChanged: false Elapsed: 12ms
+Info 960  [12:32:54.177] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 961  [12:32:54.712] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 962  [12:32:54.725] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 311 structureChanged: false Elapsed: 13ms
+Info 963  [12:32:54.725] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 964  [12:32:54.947] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 965  [12:32:54.965] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 312 structureChanged: false Elapsed: 18ms
+Info 966  [12:32:54.965] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 967  [12:32:55.499] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 968  [12:32:55.509] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 313 structureChanged: false Elapsed: 10ms
+Info 969  [12:32:55.509] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 970  [12:33:12.751] Search path: /home/jithin/Documents/project/ecommerce/ecommang/src/app/redux/actions
+Info 971  [12:33:12.753] For info: /home/jithin/Documents/project/ecommerce/ecommang/src/app/redux/actions/category.action.ts :: Config file name: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 972  [12:33:12.755] `remove Project::
+Info 973  [12:33:12.755] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 974  [12:33:12.756] 	Files (26)
+
+Info 975  [12:33:12.756] -----------------------------------------------
+Info 976  [12:33:33.416] Starting updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json
+Info 977  [12:33:33.455] Finishing updateGraphWorker: Project: /home/jithin/Documents/project/ecommerce/ecommang/tsconfig.json Version: 314 structureChanged: false Elapsed: 39ms
+Info 978  [12:33:33.455] Different program with same set of files:: oldProgram.structureIsReused:: 2

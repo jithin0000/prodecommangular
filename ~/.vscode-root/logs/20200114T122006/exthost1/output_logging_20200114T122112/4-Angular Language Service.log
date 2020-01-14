@@ -1,0 +1,5 @@
+[Info  - 12:21:12 pm] Angular language server process ID: 10112
+[Info  - 12:21:12 pm] Using typescript v3.6.4 from /home/jithin/.vscode/extensions/angular.ng-template-0.900.4/node_modules/typescript/lib/tsserverlibrary.js
+[Info  - 12:21:12 pm] Using @angular/language-service v9.0.0-rc.8 from /home/jithin/.vscode/extensions/angular.ng-template-0.900.4/server/node_modules/@angular/language-service/bundles/language-service.umd.js
+[Info  - 12:21:12 pm] Log file: /home/jithin/Documents/project/ecommerce/ecommang/~/.vscode-root/logs/20200114T122006/exthost1/Angular.ng-template/nglangsvc.log
+Warning: Can't resolve all parameters for BaseService in /home/jithin/Documents/project/ecommerce/ecommang/src/app/services/base.service.ts: ([object Object], ?). This will become an error in Angular v6.x

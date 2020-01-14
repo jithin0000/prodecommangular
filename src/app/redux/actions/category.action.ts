@@ -15,23 +15,7 @@ export const getCategorySuccess = createAction( CategoryActionTypes.LOAD_CATEGOR
 export const getCategoryFailure = createAction( CategoryActionTypes.LOAD_CATEGORY_FAILURE)
 
 
-export class LoadCategory implements Action{
-    readonly type =  CategoryActionTypes.LOAD_CATEGORY;
-}
 
-
-export class LoadCategorySuccess implements Action{
-    readonly type =  CategoryActionTypes.LOAD_CATEGORY_SUCCESS;
-}
-
-
-
-export class LoadCategoryFailure implements Action{
-    readonly type =  CategoryActionTypes.LOAD_CATEGORY_FAILURE;
-}
-
-
-export type CategoryActions = LoadCategory | LoadCategorySuccess | LoadCategoryFailure;
 
 
 

@@ -6,6 +6,7 @@ import { Store } from '@ngrx/store';
 import { AppState } from 'src/app/redux/AppState';
 
 import { selectCategories } from "../../redux/selector/category.selector";
+import { getCategory } from 'src/app/redux/actions/category.action';
 
 @Component({
   selector: 'app-category-list',
@@ -24,6 +25,7 @@ export class CategoryListComponent implements OnInit {
 
     this.categories$ = this.categoryService.getAll()
 
+    this.store.dispatch(getCategory())
 
     this.store.select(state => selectCategories(state)).subscribe(res => console.log(res))
   }
