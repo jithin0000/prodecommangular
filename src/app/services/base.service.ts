@@ -12,6 +12,12 @@ export class BaseService<T> {
     this.url = environment.url+endpoint
   }
 
+  
+  public get httpClient() : HttpClient {
+    return this.http;
+  }
+  
+
   public getAll(){
     return this.http.get<T[]>(this.url)
   }
