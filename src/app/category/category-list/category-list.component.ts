@@ -6,7 +6,7 @@ import { Store } from '@ngrx/store';
 import { AppState } from 'src/app/redux/AppState';
 
 import { selectCategories, selectCategoryloading } from "../../redux/selector/category.selector";
-import { getCategory, filterCategoryByName } from 'src/app/redux/actions/category.action';
+import { getCategory, filterCategoryByName, deleteCategory } from 'src/app/redux/actions/category.action';
 import { Page } from 'src/app/models/page.model';
 import { PageEvent } from '@angular/material/paginator';
 import { PageRequestDto } from 'src/app/models/dto/PageRequestDto';
@@ -19,7 +19,7 @@ import { map, debounceTime, tap, filter, distinctUntilChanged, switchMap } from 
 })
 export class CategoryListComponent implements OnInit, OnDestroy {
 
-  paginatedCategory$: Observable<Page<Category[]>>
+  paginatedCategory$: Observable<Page<Category>>
   categoryColumns = ["No", "Name", "Created", "Actions"]
   loading$: Observable<boolean>;
 
@@ -66,6 +66,8 @@ export class CategoryListComponent implements OnInit, OnDestroy {
 
 
   delete(id: number){
+
+    this.store.dispatch(deleteCategory({payload: id}))
 
   }
 

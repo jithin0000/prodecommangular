@@ -21,6 +21,10 @@ export class BaseService<T> {
   public getAll(){
     return this.http.get<T[]>(this.url)
   }
+
+  public delete(id: number){
+    return this.http.delete(this.url+"/delete/"+id)
+  }
   
 
 }

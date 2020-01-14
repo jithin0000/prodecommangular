@@ -37,4 +37,16 @@ export class CategoryEffects {
   );
 
 
+  deleteCategory$  = createEffect(() => this.actions$.pipe(
+    ofType(CategoryActionTypes.DELETE_CATEGORY),
+    switchMap( (body:{payload: number}) => this.categoryService.delete(body.payload).pipe(
+      map(data => ({type: CategoryActionTypes.DELETE_CATEGORY_SUCCESS, payload: body.payload})),
+      catchError(error => of({ type: CategoryActionTypes.DELETE_CATEGORY_FAILURE, payload: error}))
+    ) )
+  )
+  );
+
+
+
+
 }

@@ -27,7 +27,7 @@ export const getCategory = createAction(
 
 export const getCategorySuccess = createAction(
     CategoryActionTypes.LOAD_CATEGORY_SUCCESS,
-    props<{ payload: Page<Category[]> }>()
+    props<{ payload: Page<Category> }>()
 )
 export const getCategoryFailure = createAction(CategoryActionTypes.LOAD_CATEGORY_FAILURE)
 
@@ -39,15 +39,15 @@ export const filterCategoryByName = createAction(
 
 export const filterCategoryByNameSuccess = createAction(
     CategoryActionTypes.FILTER_CATEGORY_BY_NAME_SUCCESS,
-    props<{ payload: Page<Category[]> }>()
+    props<{ payload: Page<Category> }>()
 )
 export const filterCategoryByNameFailure = createAction(CategoryActionTypes.FILTER_CATEGORY_BY_NAME_FAILURE,
     props<{ payload: any }>()
 )
 
-export const deleteCategory = createAction(CategoryActionTypes.DELETE_CATEGORY, props<{id: number}>());
-export const deleteCategorySuccess = createAction(CategoryActionTypes.DELETE_CATEGORY_SUCCESS, props<{payload: Page<Category[]>}>());
-export const deleteCategoryFailure = createAction(CategoryActionTypes.DELETE_CATEGORY_FAILURE, props<{payload:any>}>());
+export const deleteCategory = createAction(CategoryActionTypes.DELETE_CATEGORY, props<{payload: number}>());
+export const deleteCategorySuccess = createAction(CategoryActionTypes.DELETE_CATEGORY_SUCCESS, props<{payload: number}>());
+export const deleteCategoryFailure = createAction(CategoryActionTypes.DELETE_CATEGORY_FAILURE, props<{payload:any}>());
 
 
 

@@ -9,20 +9,25 @@ import { CategoryEffects } from '../redux/effect/Categoryeffect';
 import { MaterialModule } from '../material/material.module';
 import { CategoryListItemComponent } from './category-list-item/category-list-item.component';
 import { AddCategoryComponent } from './add-category/add-category.component';
+import { AppRoutingModule } from '../app-routing.module';
+import { CategoryDetailComponent } from './category-detail/category-detail.component';
+import { CategoryRoutingModule } from './category-routing.module';
 
 
 
 @NgModule({
-  declarations: [CategoryComponent, CategoryListComponent, CategoryListItemComponent, AddCategoryComponent],
+  declarations: [
+    CategoryComponent,
+     CategoryListComponent, 
+     CategoryListItemComponent, AddCategoryComponent, CategoryDetailComponent],
   imports: [
     SharedModule,
     StoreModule.forFeature("category", categorReducer),
     EffectsModule.forFeature([CategoryEffects]),
-    MaterialModule
+    MaterialModule,
+    CategoryRoutingModule
   ],
   exports:[
-    CategoryComponent,
-    CategoryListComponent
   ]
 })
 export class CategoryModule { }

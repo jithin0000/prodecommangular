@@ -8,6 +8,7 @@ import { CategoryModule } from './category/category.module';
 import { StoreModule } from '@ngrx/store';
 import { EffectsModule } from '@ngrx/effects';
 import { MaterialModule } from './material/material.module';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -15,11 +16,11 @@ import { MaterialModule } from './material/material.module';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     BrowserAnimationsModule,
-    CategoryModule,
     StoreModule.forRoot({}),
     EffectsModule.forRoot([]),
+    SharedModule,
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
