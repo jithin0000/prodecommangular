@@ -6,6 +6,8 @@ import { take, map } from 'rxjs/operators';
 import { AppState } from 'src/app/redux/AppState';
 import { Store } from '@ngrx/store';
 import { getDepartment } from 'src/app/redux/actions/department.action';
+import { CategoryState } from '../store/reducers/category.reducer';
+import { getSelectedCategory } from '../store/selectors/category.selector';
 
 @Component({
   selector: 'app-category-detail',
@@ -15,15 +17,14 @@ import { getDepartment } from 'src/app/redux/actions/department.action';
 export class CategoryDetailComponent implements OnInit {
   category$: Observable<Category>;
 
-  constructor(private router: ActivatedRoute, private store: Store<AppState>) { }
+  constructor(private router: ActivatedRoute, private store: Store<CategoryState>) { }
 
   ngOnInit() {
+    
+    this.store.select(getSelectedCategory)
+    .subscribe(res => console.log(res))
 
-    this.category$ = this.router.data.pipe(
-      map((data: {category: Category})=> data.category)
-    )
-
-  
+    
   }
     
 }

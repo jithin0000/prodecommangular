@@ -1,10 +1,12 @@
 export interface Page<T>{
-    content:T[],
+    content?:T[],
     totalPages: number,
     totalElements: number,
-    last: boolean;
-    first: boolean;
+    last?: boolean;
+    first?: boolean;
     size: number;
-    nubmer: number;
+    number?: number;
     numberOfElements: number;
+    entities?:{[id: number] : T}
+
 }

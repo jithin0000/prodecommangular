@@ -10,6 +10,9 @@ import { EffectsModule } from '@ngrx/effects';
 import { MaterialModule } from './material/material.module';
 import { SharedModule } from './shared/shared.module';
 
+import { reducers, CustomSerializer } from './redux/index'
+import { StoreRouterConnectingModule } from '@ngrx/router-store';
+
 @NgModule({
   declarations: [
     AppComponent
@@ -17,10 +20,16 @@ import { SharedModule } from './shared/shared.module';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    StoreModule.forRoot({}),
-    EffectsModule.forRoot([]),
     SharedModule,
     AppRoutingModule,
+    StoreModule.forRoot(reducers),
+    EffectsModule.forRoot([]),
+
+    StoreRouterConnectingModule.forRoot({
+      serializer: CustomSerializer
+    })
+
+
   ],
   providers: [],
   bootstrap: [AppComponent],

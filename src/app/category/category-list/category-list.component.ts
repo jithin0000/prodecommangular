@@ -43,6 +43,8 @@ export class CategoryListComponent implements OnInit, OnDestroy {
     this.paginatedCategory$ = this.store.select(state =>selectCategories(state) )
     this.loading$ = this.store.select(state => selectCategoryloading(state))
 
+    this.store.select(state => state).subscribe(res => console.log(res))
+
 
 
   }

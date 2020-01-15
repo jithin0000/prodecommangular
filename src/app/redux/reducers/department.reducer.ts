@@ -13,7 +13,7 @@ export interface DepartmentState {
 export const intitialState: DepartmentState = {
     data: {
         content: [], totalElements: 1, totalPages: 1, 
-        last: false, first: true, size: 10, nubmer: 10,
+        last: false, first: true, size: 10, number: 10,
          numberOfElements: 10
     },
     loaded: false, loading: false

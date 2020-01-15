@@ -30,7 +30,7 @@
         <div *ngIf="paginatedCategory$ | async as paginatedCategory" fxFlex="100%"  >
 
 
-            <table mat-table #table [dataSource]="paginatedCategory.content">
+            <table mat-table #table [dataSource]="paginatedCategory.entities">
                 <ng-container matColumnDef="No">
                     <th mat-header-cell *matHeaderCellDef> no </th>
                     <td mat-cell *matCellDef="let element"> {{element.id}} </td>
