@@ -5,6 +5,7 @@ import { map, mergeMap, catchError, switchMap } from 'rxjs/operators';
 import { CategoryService } from 'src/app/category/services/category/category.service';
 import { CategoryActionTypes } from '../actions/category.action';
 import { PageRequestDto } from 'src/app/models/dto/PageRequestDto';
+import { CategoryRequestDto } from 'src/app/models/dto/CategoryRequestDto';
  
 @Injectable()
 export class CategoryEffects {
@@ -40,6 +41,15 @@ export class CategoryEffects {
     switchMap( (body:{payload: number}) => this.categoryService.delete(body.payload).pipe(
       map(data => ({type: CategoryActionTypes.DELETE_CATEGORY_SUCCESS, payload: body.payload})),
       catchError(error => of({ type: CategoryActionTypes.DELETE_CATEGORY_FAILURE, payload: error}))
+    ) )
+  )
+  );
+
+  createCategory$  = createEffect(() => this.actions$.pipe(
+    ofType(CategoryActionTypes.CREATE_CATEGORY),
+    switchMap( (body:{payload: CategoryRequestDto}) => this.categoryService.create(body.payload).pipe(
+      map(data => ({type: CategoryActionTypes.CREATE_CATEGORY_SUCCESS, payload: data})),
+      catchError(error => of({ type: CategoryActionTypes.CREATE_CATEGORY_FAILURE, payload: error}))
     ) )
   )
   );

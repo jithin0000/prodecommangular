@@ -14,6 +14,7 @@ import { CategoryDetailComponent } from './category-detail/category-detail.compo
 import { CategoryRoutingModule } from './category-routing.module';
 import { reducers } from './store/reducers';
 import { effects } from './store/effect';
+import { DepartmentModule } from '../department/department.module';
 
 
 
@@ -27,7 +28,8 @@ import { effects } from './store/effect';
     StoreModule.forFeature("categories", reducers),
     EffectsModule.forFeature(effects),
     MaterialModule,
-    CategoryRoutingModule
+    CategoryRoutingModule,
+    DepartmentModule
   ],
   exports:[
   ]

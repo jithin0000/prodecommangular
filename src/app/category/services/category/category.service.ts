@@ -6,6 +6,7 @@ import { PageRequestDto } from 'src/app/models/dto/PageRequestDto';
 import { Page } from 'src/app/models/page.model';
 import { Observable } from 'rxjs';
 import { debounceTime, distinctUntilChanged, switchMap } from 'rxjs/operators';
+import { CategoryRequestDto } from 'src/app/models/dto/CategoryRequestDto';
 
 @Injectable({
   providedIn: 'root'
@@ -48,6 +49,10 @@ export class CategoryService extends BaseService<Category> {
    return this.httpClient.get<Page<Category>>(this.url, {
      params:new HttpParams().set('search', v)
    })
+  }
+
+  public create(category: CategoryRequestDto){
+    return this.httpClient.post<Category>(this.url+'/new', category)
   }
 
 

@@ -7,6 +7,7 @@ import { Category } from 'src/app/models/Category.model'
 
 
 
+
 export const selectCategoryFeature = 
 createFeatureSelector<CategoriesState>("categories")
 
@@ -45,11 +46,8 @@ export const getSelectedCategory = createSelector(
     selectCategoryEntities,
     getRouterState,
     (entities, router): Category =>{
-        console.log(entities)
         return router.state && entities[router.state.params.id];
     } 
-
-
 )
 
 

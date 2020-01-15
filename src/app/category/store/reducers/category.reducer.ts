@@ -1,11 +1,11 @@
 import { createReducer, on, Action } from "@ngrx/store";
 import { Category } from 'src/app/models/Category.model';
-import { getCategory, getCategorySuccess, getCategoryFailure, filterCategoryByName, filterCategoryByNameSuccess, filterCategoryByNameFailure, deleteCategory, deleteCategorySuccess, deleteCategoryFailure } from '../actions/category.action';
+import { getCategory, getCategorySuccess, getCategoryFailure, filterCategoryByName, filterCategoryByNameSuccess, filterCategoryByNameFailure, deleteCategory, deleteCategorySuccess, deleteCategoryFailure, createCategory, createCategorySuccess, createCategoryFailure } from '../actions/category.action';
 
 import { Page } from 'src/app/models/page.model';
 
 export interface CategoryState {
-    data: Page<Category>, loading: boolean, loaded: boolean
+    data: Page<Category>, loading: boolean, loaded: boolean,error: false, added: false,errormessage: ""
 }
 
 
@@ -17,7 +17,7 @@ export const intitialState: CategoryState = {
         last: false, first: true, size: 10, number: 10,
         numberOfElements: 10
     },
-    loaded: false, loading: false
+    loaded: false, loading: false, error: false, added: false, errormessage: ""
 }
 
 
@@ -113,6 +113,21 @@ const _categoryReducer = createReducer(intitialState,
         console.log(action)
         return { ...state, loading: false, loaded: false }
     }),
+
+    on(createCategory, (state, action)=> ({ ...state,error:false, added: false, loading: true, loaded: false})),
+    on(createCategorySuccess, (state, action)=> 
+    {
+        
+        return  { ...state, loading: false, error:false, added: true, loaded: false, data: {
+            ...state.data, entities: {...state.data.entities, 
+                [action.payload.id]: action.payload} ,
+        } }
+    }
+    ,
+    ),
+    on(createCategoryFailure, (state, action)=> ({ ...state, loading:false, loaded: false, 
+    error: true, added: false, errormessage: action.payload
+    }))
 
 
 )
