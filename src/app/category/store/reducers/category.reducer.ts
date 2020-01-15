@@ -37,7 +37,7 @@ const _categoryReducer = createReducer(intitialState,
         },
 
             {
-                ...state.data.entities
+                // ...state.data.entities
             })
 
         return {
@@ -73,7 +73,6 @@ const _categoryReducer = createReducer(intitialState,
         },
 
             {
-                ...state.data.entities
             })
 
         return { ...state,
