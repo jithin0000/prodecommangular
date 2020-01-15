@@ -3,9 +3,16 @@
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
 
 .p-5{
     padding: 2%;
 }
 
 .m-5{ margin: 2%;}
+
+
+.container{
+    margin: 5%;
+}

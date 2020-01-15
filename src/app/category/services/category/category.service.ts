@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { BaseService } from '../base.service';
+import { BaseService } from '../../../services/base.service';
 import { Category } from 'src/app/models/Category.model';
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { PageRequestDto } from 'src/app/models/dto/PageRequestDto';
@@ -24,7 +24,7 @@ export class CategoryService extends BaseService<Category> {
       payload.size = payload.size ? payload.size : 10
       payload.sort = payload.sort ? payload.sort : "createAt"
   
-      return this.httpClient.get<Page<Category[]>>(this.url,
+      return this.httpClient.get<Page<Category>>(this.url,
         {
           params: new HttpParams().set('page', payload.page.toString())
   
@@ -45,7 +45,7 @@ export class CategoryService extends BaseService<Category> {
     )
   }
   filterByName(v: string): any {
-   return this.httpClient.get<Page<Category[]>>(this.url, {
+   return this.httpClient.get<Page<Category>>(this.url, {
      params:new HttpParams().set('search', v)
    })
   }

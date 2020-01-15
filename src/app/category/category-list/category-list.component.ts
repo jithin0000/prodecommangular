@@ -1,16 +1,18 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
-import { CategoryService } from 'src/app/services/category/category.service';
+import { CategoryService } from 'src/app/category/services/category/category.service';
 import { Observable, Subject, fromEvent } from 'rxjs';
 import { Category } from 'src/app/models/Category.model';
 import { Store } from '@ngrx/store';
 import { AppState } from 'src/app/redux/AppState';
 
-import { selectCategories, selectCategoryloading } from "../../redux/selector/category.selector";
-import { getCategory, filterCategoryByName, deleteCategory } from 'src/app/redux/actions/category.action';
+import { selectCategories, selectCategoryloading } from "../store/selectors/category.selector";
+import { getCategory, filterCategoryByName, deleteCategory } from 'src/app/category/store/actions/category.action';
 import { Page } from 'src/app/models/page.model';
 import { PageEvent } from '@angular/material/paginator';
 import { PageRequestDto } from 'src/app/models/dto/PageRequestDto';
 import { map, debounceTime, tap, filter, distinctUntilChanged, switchMap } from 'rxjs/operators';
+import { MatSelect } from '@angular/material/select';
+import { CategoriesState } from '../store/CategoriesSate';
 
 @Component({
   selector: 'app-category-list',
@@ -25,10 +27,9 @@ export class CategoryListComponent implements OnInit, OnDestroy {
 
   searchTerm$ = new Subject<string>()
 
-
   constructor(
     
-    private store: Store<AppState>,
+    private store: Store<CategoriesState>,
     private categoryservice: CategoryService
     ) {
 
@@ -37,18 +38,12 @@ export class CategoryListComponent implements OnInit, OnDestroy {
      }
 
   ngOnInit() {
-
-
     this.store.dispatch(getCategory({payload: {page:0, size:10, sort:"createAt"}}))
 
-
-    
-    this.paginatedCategory$ = this.store.select(state => selectCategories(state))
-    
+    this.paginatedCategory$ = this.store.select(state =>selectCategories(state) )
     this.loading$ = this.store.select(state => selectCategoryloading(state))
-    
 
-    this.searchTerm$.subscribe(res => console.log(res))
+
 
   }
 
@@ -66,9 +61,7 @@ export class CategoryListComponent implements OnInit, OnDestroy {
 
 
   delete(id: number){
-
     this.store.dispatch(deleteCategory({payload: id}))
-
   }
 
  
@@ -77,8 +70,12 @@ export class CategoryListComponent implements OnInit, OnDestroy {
   }
 
   update(id: number){
-
     console.log(id)
+  }
+
+  sort( temp: MatSelect){
+    this.store.dispatch(getCategory({ payload: { sort: temp.value} }))
+    
   }
 
 

@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { Actions, createEffect, ofType } from '@ngrx/effects';
 import { EMPTY, of, Subject } from 'rxjs';
 import { map, mergeMap, catchError, switchMap } from 'rxjs/operators';
-import { CategoryService } from 'src/app/services/category/category.service';
+import { CategoryService } from 'src/app/category/services/category/category.service';
 import { CategoryActionTypes } from '../actions/category.action';
 import { PageRequestDto } from 'src/app/models/dto/PageRequestDto';
  
@@ -25,8 +25,6 @@ export class CategoryEffects {
   filterCategoryByName$ = createEffect(() => this.actions$.pipe(
     ofType(CategoryActionTypes.FILTER_CATEGORY_BY_NAME),
     switchMap((body: { payload: Subject<string>}) => {
-      
-      console.log(body.payload)
       return this.categoryService
     .filterCategoryByName(body.payload)
       .pipe(

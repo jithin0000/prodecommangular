@@ -1,5 +1,5 @@
-<div class="p-5" fxLayout="row" fxLayoutAlign="start start" fxLayoutGap="10px">
-    <div fxFlex="100%" >
+<div fxLayout="row" fxLayoutAlign="start start" fxLayoutGap="10px">
+    <div fxFlex="50%" >
             <mat-form-field>
                 <mat-icon>search</mat-icon>
                 <input matInput
@@ -7,18 +7,27 @@
                  (keydown)="searchTerm$.next($event.target.value)" >
             </mat-form-field>
     </div>
+
+    <div fxFlex="50%">
+       <mat-form-field>
+        <mat-label>sort by</mat-label>
+        <mat-select #sorted (selectionChange)="sort(sorted)"  name="item">
+            <mat-option value="name" >Name</mat-option>
+            <mat-option value="createAt" >Date</mat-option>
+        </mat-select>
+       </mat-form-field>
+    </div>
 </div>
 
 
 <div fxLayout="row" fxLayoutAlign="start start" fxLayoutGap="10px">
-    
     <div *ngIf="loading$ | async as loading ; else loaded" fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="10px">
         <div fxFlex="100%">
             <mat-spinner> </mat-spinner>
         </div>
     </div>
     <ng-template #loaded>
-        <div *ngIf="paginatedCategory$ | async as paginatedCategory" fxFlex="100%" class="p-5" >
+        <div *ngIf="paginatedCategory$ | async as paginatedCategory" fxFlex="100%"  >
 
 
             <table mat-table #table [dataSource]="paginatedCategory.content">

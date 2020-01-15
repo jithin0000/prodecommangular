@@ -1,7 +1,16 @@
-import { ActionReducerMap } from '@ngrx/store';
-import { AppState } from '../AppState';
-import { categorReducer } from './category.reducer';
+import { ActionReducer, MetaReducer } from '@ngrx/store';
 
-export const rootReducer: ActionReducerMap<AppState>= {
-    category: categorReducer
-}
+
+
+export function debug(reducer: ActionReducer<any>): ActionReducer<any> {
+    return function(state, action) {
+      console.log('state', state);
+      console.log('action', action);
+   
+      return reducer(state, action);
+    };
+  }
+
+
+   
+  export const metaReducers: MetaReducer<any>[] = [debug];
