@@ -93,16 +93,26 @@ const _categoryReducer = createReducer(intitialState,
     on(filterCategoryByNameFailure, (state, action) => ({ ...state, data: action.payload, loading: false, loaded: true })),
 
     on(deleteCategory, (state, action) => ({ ...state, loading: true, loaded: false })),
-    on(deleteCategorySuccess, (state, action) => ({
+    on(deleteCategorySuccess, (state, action) => { 
+        
+        const enties = Object.keys(state.data.entities)
+        .map( id => state.data.entities[parseInt(id)])
+
+        return {
+        
         ...state, loading: false, loaded: true,
         data: {
             ...state.data,
-            content: state.data.content.filter(
+            entities:enties.filter(
                 item => item.id !== action.payload
             )
         }
-    })),
-    on(deleteCategoryFailure, (state, action) => ({ ...state, loading: false, loaded: false })),
+    }}
+    ),
+    on(deleteCategoryFailure, (state, action) => { 
+        console.log(action)
+        return { ...state, loading: false, loaded: false }
+    }),
 
 
 )

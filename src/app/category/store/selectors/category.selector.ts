@@ -1,8 +1,8 @@
-import {AppState} from '../../../redux/AppState'
+import {AppState} from '../../../store/AppState'
 import { createSelector, createFeatureSelector } from '@ngrx/store'
 import { CategoryState } from '../reducers/category.reducer'
 import { CategoriesState } from '../CategoriesSate'
-import { getRouterState } from 'src/app/redux'
+import { getRouterState } from 'src/app/store'
 import { Category } from 'src/app/models/Category.model'
 
 

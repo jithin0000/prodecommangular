@@ -1,1 +1,36 @@
-<p>add-category works!</p>
+<!-- //category name
+// add department
+// add features -->
+<form [formGroup]="categoryForm" (ngSubmit)="onSubmit()" >
+
+    <mat-list>
+        <mat-list-item>
+            <mat-form-field class="m-input" >
+                <input matInput placeholder="name" formControlName="name" >
+                <mat-error *ngIf="name.invalid && name.touched" >
+                    Name field is required
+                </mat-error>
+            </mat-form-field>
+        </mat-list-item>
+
+        <mat-list-item>
+            <mat-form-field class="m-input" >
+                <mat-label>Select your car (required)</mat-label>
+                <select matNativeControl required [formControl]="department">
+                  <option label="--select something --"></option>
+                  <option value="saab">Saab</option>
+                  <option value="mercedes">Mercedes</option>
+                  <option value="audi">Audi</option>
+                </select>
+                <mat-error *ngIf="department.hasError('required')">
+                  This field is required
+                </mat-error>
+                <mat-hint>Pick a department here or create one</mat-hint>
+              </mat-form-field>
+        </mat-list-item>
+
+
+    </mat-list>
+    <button [disabled]="categoryForm.invalid" class="pt-3" mat-raised-button color="primary" >submit</button>
+
+</form>

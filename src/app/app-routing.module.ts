@@ -6,7 +6,12 @@ import { CategoryDetailComponent } from './category/category-detail/category-det
 
 const routes: Routes = [
   { path: 'category',
-   loadChildren: ()=> import('./category/category.module').then(cm => cm.CategoryModule)},
+   loadChildren: ()=> import('./category/category.module').then(cm => cm.CategoryModule)
+  },
+  {
+    path: 'department',
+    loadChildren: ()=> import('./department/department.module').then( dm=> dm.DepartmentModule)
+  },
  {
    path:'', redirectTo: 'category', pathMatch:'full'
  }

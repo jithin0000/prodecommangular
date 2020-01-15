@@ -1,15 +1,21 @@
-<div class="p-2" fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="10px">
-    <div fxFlex="100%" fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="10px" >
-        <h2 class="mat-header mat-dispay-1">Category</h2>
-        <mat-icon>category</mat-icon>
-        <button mat-raised-button><mat-icon>add</mat-icon></button>
+<div class="container">
+    <div class="p-2" fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="10px">
+        <div fxFlex="100%" fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="10px" >
+            <h2 class="mat-header mat-dispay-1">Category</h2>
+            <mat-icon>category</mat-icon>
+            <button mat-raised-button><mat-icon>add</mat-icon></button>
+        </div>
     </div>
-</div>
-
-
-
-<div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="10px">
-    <div fxFlex="50%">
-        <app-category-list></app-category-list>
+    
+    
+    
+    <div fxLayout="row" fxLayoutAlign="center start" fxLayoutGap="50px">
+        <div fxFlex="50%">
+            <app-category-list></app-category-list>
+        </div>
+    
+        <div fxFlex="50%">
+            <app-add-category></app-add-category>
+        </div>
     </div>
 </div>

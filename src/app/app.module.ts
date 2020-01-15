@@ -10,7 +10,7 @@ import { EffectsModule } from '@ngrx/effects';
 import { MaterialModule } from './material/material.module';
 import { SharedModule } from './shared/shared.module';
 
-import { reducers, CustomSerializer } from './redux/index'
+import { reducers, CustomSerializer } from './store/index'
 import { StoreRouterConnectingModule } from '@ngrx/router-store';
 
 @NgModule({

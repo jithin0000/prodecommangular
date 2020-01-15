@@ -3,7 +3,7 @@ import { CategoryService } from 'src/app/category/services/category/category.ser
 import { Observable, Subject, fromEvent } from 'rxjs';
 import { Category } from 'src/app/models/Category.model';
 import { Store } from '@ngrx/store';
-import { AppState } from 'src/app/redux/AppState';
+import { AppState } from 'src/app/store/AppState';
 
 import { selectCategories, selectCategoryloading } from "../store/selectors/category.selector";
 import { getCategory, filterCategoryByName, deleteCategory } from 'src/app/category/store/actions/category.action';
@@ -30,7 +30,6 @@ export class CategoryListComponent implements OnInit, OnDestroy {
   constructor(
     
     private store: Store<CategoriesState>,
-    private categoryservice: CategoryService
     ) {
 
       this.store.dispatch(filterCategoryByName({payload: this.searchTerm$}))

@@ -3,9 +3,9 @@ import { ActivatedRoute } from '@angular/router';
 import { Category } from 'src/app/models/Category.model';
 import { Observable } from 'rxjs';
 import { take, map, filter, switchMap } from 'rxjs/operators';
-import { AppState } from 'src/app/redux/AppState';
+import { AppState } from 'src/app/store/AppState';
 import { Store } from '@ngrx/store';
-import { getDepartment } from 'src/app/redux/actions/department.action';
+import { getDepartment } from 'src/app/department/store/actions/department.action';
 import { CategoryState } from '../store/reducers/category.reducer';
 import { getSelectedCategory } from '../store/selectors/category.selector';
 
