@@ -13,6 +13,7 @@ import { PageRequestDto } from 'src/app/models/dto/PageRequestDto';
 import { map, debounceTime, tap, filter, distinctUntilChanged, switchMap } from 'rxjs/operators';
 import { MatSelect } from '@angular/material/select';
 import { CategoriesState } from '../store/CategoriesSate';
+import { CatetegoryCommunicationService } from '../services/communication/catetegory-communication.service';
 
 @Component({
   selector: 'app-category-list',
@@ -30,6 +31,7 @@ export class CategoryListComponent implements OnInit, OnDestroy {
   constructor(
     
     private store: Store<CategoriesState>,
+    private categoryEvent: CatetegoryCommunicationService
     ) {
 
       this.store.dispatch(filterCategoryByName({payload: this.searchTerm$}))
@@ -70,8 +72,10 @@ export class CategoryListComponent implements OnInit, OnDestroy {
     this.searchTerm$.unsubscribe()
   }
 
-  update(id: number){
-    console.log(id)
+  update(category){
+
+    this.categoryEvent.sendCategory(category)
+
   }
 
   sort( temp: MatSelect){

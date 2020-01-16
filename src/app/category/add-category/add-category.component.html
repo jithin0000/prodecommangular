@@ -14,19 +14,31 @@
             <mat-list-item>
                 <mat-form-field class="m-input">
                     <mat-label>Select Department </mat-label>
-                    <mat-select  *ngIf="departments$ | async as departments" required [formControl]="department"
-                        multiple>
-                        <mat-option *ngFor="let dep of departments.content" [value]="dep.id">
+                    <mat-select  
+                    *ngIf="departments$ | async as departments" 
+                    required 
+                    [formControl]="department"
+                    multiple>
+                        <mat-option  *ngFor="let dep of departments.entities ; let i=index " 
+                        [value]="i">
                             {{ dep.name }}
-                        </mat-option>
+                        </mat-option >
 
                     </mat-select>
-                    <mat-error *ngIf="department.hasError('required')">
+                    <mat-error  *ngIf="department.touched && department.invalid">
                         This field is required
-                    </mat-error>
+                    </mat-error >
 
                 </mat-form-field>
 
+            </mat-list-item>
+
+            <mat-list-item>
+                <mat-chip-list *ngIf="selectedDepartment.length > 0" color="primary" >
+                    <mat-chip color="primary" selected  *ngFor="let item of selectedDepartment"  >
+                        {{item}}
+                    </mat-chip>
+                </mat-chip-list>
             </mat-list-item>
 
            

@@ -14,7 +14,8 @@ export const intitialState: DepartmentState = {
     data: {
         content: [], totalElements: 1, totalPages: 1, 
         last: false, first: true, size: 10, number: 10,
-         numberOfElements: 10
+         numberOfElements: 10,
+         entities:{}
     },
     loaded: false, loading: false
 }
@@ -24,7 +25,30 @@ export const intitialState: DepartmentState = {
 const _departmentReducer = createReducer(intitialState,
 
     on(getDepartment, state => ({ ...state, loading: true, loaded: false })),
-    on(getDepartmentSuccess, (state, action) => ({ ...state, data: action.payload, loading: false, loaded: true })),
+    on(getDepartmentSuccess, (state, action) => {
+
+        const entities = action.payload.content
+        .reduce((entities:{[id: number]: Department} , department ) =>{
+
+            return {
+                ...entities, 
+                [department.id]: department
+            }
+
+        },
+        {})
+
+        return{ ...state,   data: {
+            content: action.payload.content,
+            totalPages: action.payload.totalPages,
+            totalElements: action.payload.totalElements,
+            numberOfElements: action.payload.numberOfElements,
+            number: action.payload.number,
+            size: action.payload.size,
+            entities: entities
+        }, loading: false, loaded: true }}
+        
+        ),
     on(getDepartmentFailure, (state) => ({ ...state, loading: true, loaded: true })),
 
     on(filterDepartmentByName, state => ({ ...state, loading: false, loaded: false })),

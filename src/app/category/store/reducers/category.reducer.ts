@@ -5,7 +5,7 @@ import { getCategory, getCategorySuccess, getCategoryFailure, filterCategoryByNa
 import { Page } from 'src/app/models/page.model';
 
 export interface CategoryState {
-    data: Page<Category>, loading: boolean, loaded: boolean,error: false, added: false,errormessage: ""
+    data: Page<Category>, loading: boolean, loaded: boolean,error: boolean, added: boolean,errormessage: ""
 }
 
 
@@ -28,7 +28,8 @@ const _categoryReducer = createReducer(intitialState,
 
     on(getCategorySuccess, (state, action) => {
 
-        const data = action.payload.content.reduce((enitites: { [id: number]: Category }, category: Category) => {
+        const data = action.payload.content.reduce((enitites: { [id: number]: Category },
+             category: Category) => {
 
             return {
                 ...enitites,
@@ -51,7 +52,7 @@ const _categoryReducer = createReducer(intitialState,
                 size: action.payload.size,
                 entities: data
             },
-            loading: false, loaded: true
+            loading: false, loaded: true, added: false, error: false
         }
 
     }
