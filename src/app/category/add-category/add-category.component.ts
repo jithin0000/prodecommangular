@@ -29,7 +29,6 @@ export class AddCategoryComponent implements OnInit, OnDestroy {
   departmentEntity$: Observable<any>;
 
   
-  
 
   constructor( 
     private eventService: CatetegoryCommunicationService,
@@ -46,6 +45,8 @@ export class AddCategoryComponent implements OnInit, OnDestroy {
     this.getDepartments();
 
     this.departments$ = this.store.select(departmentSelector)
+
+
     this.departmentEntity$ = this.store.select(departmentEntitySelector)
 
     this.departmentEntity$.subscribe(res => console.log(res))
@@ -57,9 +58,10 @@ export class AddCategoryComponent implements OnInit, OnDestroy {
     this.showSelectedDepartmentAsChips();
 
     this.eventService.category$.pipe(
-      map(item => ({name: item.name, deps: item.departments.map(d => d.id)})  )
+      map(item => ({name: item.name, deps: item.departments.map(d => d.id)}))
     ).subscribe(res => {
       this.update = true;
+      this.name.setValue(res.name)
       this.department.setValue(res.deps)
 
     })
@@ -75,7 +77,7 @@ export class AddCategoryComponent implements OnInit, OnDestroy {
       console.log(selectedValue)
       this.selectedDepartment = this.selectedDepartment.filter(item => item !== item);
       selectedValue.forEach(element => {
-        this.selectedDepartment = [...this.selectedDepartment, departments.content[element].name];
+        this.selectedDepartment = [...this.selectedDepartment, departments.content[element-1].name];
       });
     });
   }
@@ -93,7 +95,7 @@ export class AddCategoryComponent implements OnInit, OnDestroy {
         if (res.categories.error) {
           this.errorMessage = res.categories.errormessage;
         }
-        else if (res.categories.added===true) {
+        else if ( !res.categories.error && res.categories.added===true) {
           this.categoryForm.reset();
           this.errorMessage = "";
           this.snackBar.openFromComponent(SnackbarComponent, {
@@ -107,7 +109,7 @@ export class AddCategoryComponent implements OnInit, OnDestroy {
   private getDepartments() {
     this.store.dispatch(getDepartment({
     payload: {
-      page: 0, size: 0, sort: ""
+      page: 0, size: 100, sort: ""
     }
     }));
   }

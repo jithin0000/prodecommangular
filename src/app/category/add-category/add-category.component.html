@@ -20,7 +20,7 @@
                     [formControl]="department"
                     multiple>
                         <mat-option  *ngFor="let dep of departments.entities ; let i=index " 
-                        [value]="i">
+                        [value]="i+1">
                             {{ dep.name }}
                         </mat-option >
 
