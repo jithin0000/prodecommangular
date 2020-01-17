@@ -1,1 +1,62 @@
-<p>department-list works!</p>
+<mat-card  >
+    <mat-card-content>
+      <div fxLayout="row" fxLayoutAlign="start start" fxLayoutGap="20px">
+        <div fxFlex="50%">
+          <mat-form-field>
+            <input (keyup)="searchTerm$.next($event.target.value)" matInput placeholder="search" >
+            <mat-icon>search</mat-icon>
+          </mat-form-field>
+        </div>
+        <div fxFlex="50%">
+          <mat-form-field>
+            <mat-label>sort by</mat-label>
+            <mat-select #sorted (selectionChange)="sort(sorted)"  name="item">
+                <mat-option value="name" >Name</mat-option>
+                <mat-option value="createAt" >Date</mat-option>
+            </mat-select>
+           </mat-form-field>
+        </div>
+      </div>
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Created </th>
+                <th scope="col">Action</th>
+              </tr>
+            </thead>
+            <tbody *ngIf="departments$ | async as departments" >
+              <tr *ngFor="let dep of departments.entities ; let i=index" >
+                <th scope="row">{{i+1}}</th>
+                <td>{{dep.name}}</td>
+                <td>{{dep.createAt | date}}</td>
+                <td>
+                   <div fxLayout="row" fxLayoutAlign="start start" fxLayoutGap="20px">
+                    <button routerLink="/department/detail/{{dep.id}}" color="primary" mat-raised-button>
+                        <mat-icon>details</mat-icon>
+                    </button>
+                    <button (click)="selectDepartment(dep)" color="accent" mat-raised-button>
+                        <mat-icon>edit</mat-icon>
+                    </button>
+                    <button (click)="deleteDepartment(dep.id)" color="warn" mat-raised-button>
+                        <mat-icon>delete</mat-icon>
+                    </button>
+                   </div>
+                </td>
+              </tr>
+              
+            </tbody>
+          </table>
+         <div *ngIf="departments$ | async as departments" fxLayout="row" 
+         fxLayoutAlign="end start" fxLayoutGap="10px">
+          <mat-paginator 
+          (page)="changePage($event)"
+          [pageIndex]="departments.number"
+          [length]="departments.totalElements"
+          [pageSize]="departments.size"
+           [pageSizeOptions]="[5, 10, 25, 100]">
+          </mat-paginator>
+         </div>
+    </mat-card-content>
+</mat-card >

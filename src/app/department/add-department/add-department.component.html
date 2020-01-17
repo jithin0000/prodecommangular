@@ -1,1 +1,18 @@
-<p>add-department works!</p>
+<div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="20px">
+    <div fxFlex="100%" fxFlexFill >
+        <h3>Add New Department</h3>
+
+        <form (ngSubmit)="onSubmit()"  [formGroup]="departmentForm" >
+
+            <mat-form-field class="m-form-field" >
+                <input formControlName="name" matInput placeholder="name"  required >
+                <mat-error *ngIf="name.touched && name.invalid" >
+                    <p>This field is required</p>
+                </mat-error>
+            </mat-form-field>
+
+            <button [disabled]="departmentForm.invalid" mat-raised-button>submit</button>
+        </form>
+    </div>
+    
+</div>

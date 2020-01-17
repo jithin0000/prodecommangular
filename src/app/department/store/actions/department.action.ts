@@ -16,6 +16,10 @@ export enum DepartmentActionTypes {
     DELETE_DEPARTMENT = "[DELETE]  DELETE departments",
     DELETE_DEPARTMENT_SUCCESS = "[DELETE] DELETE departments success",
     DELETE_DEPARTMENT_FAILURE = "[DELETE] DELETE departments failure",
+
+    CREATE_DEPARTMENT = "[CREATE]  CREATE departments",
+    CREATE_DEPARTMENT_SUCCESS = "[CREATE] CREATE departments success",
+    CREATE_DEPARTMENT_FAILURE = "[CREATE] CREATE departments failure",
 }
 
 export const getDepartment = createAction(
@@ -55,8 +59,21 @@ export const deleteDepartmentFailure = createAction(DepartmentActionTypes.DELETE
 
 
 
+export const createDepartment = createAction(
+    DepartmentActionTypes.CREATE_DEPARTMENT,
+    props<{payload: Department}>()
+)
+
+export const createDepartmentSuccess = createAction(
+    DepartmentActionTypes.CREATE_DEPARTMENT_SUCCESS,
+    props<{payload: Department}>()
+)
 
 
+export const createDepartmentFailure = createAction(
+    DepartmentActionTypes.CREATE_DEPARTMENT_FAILURE,
+    props<{payload: any}>()
+)
 
 
 

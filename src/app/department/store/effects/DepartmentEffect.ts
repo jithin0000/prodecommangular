@@ -5,6 +5,7 @@ import { map, mergeMap, catchError, switchMap } from 'rxjs/operators';
 import { PageRequestDto } from 'src/app/models/dto/PageRequestDto';
 import { DepartmentService } from 'src/app/services/department/department.service';
 import { DepartmentActionTypes } from '../actions/department.action';
+import { Department } from 'src/app/models/Department.model';
 
  
 @Injectable()
@@ -45,6 +46,14 @@ export class DepartmentEffects {
   )
   );
 
+  createDepartment$ = createEffect(() => this.actions$.pipe(
+    ofType(DepartmentActionTypes.CREATE_DEPARTMENT),
+    switchMap((body: { payload: Department})=>this.departmentService.create(body.payload).pipe(
+      map((department)=> ({type: DepartmentActionTypes.CREATE_DEPARTMENT_SUCCESS, payload: department})),
+      catchError((error)=> of({type: DepartmentActionTypes.CREATE_DEPARTMENT_FAILURE, payload: error}))
+    ))
+    )
+  );
 
 
 

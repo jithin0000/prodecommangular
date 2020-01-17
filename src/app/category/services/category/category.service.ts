@@ -51,7 +51,7 @@ export class CategoryService extends BaseService<Category> {
    })
   }
 
-  public create(category: CategoryRequestDto){
+  public createCategory(category: CategoryRequestDto){
     return this.httpClient.post<Category>(this.url+'/new', category)
   }
 

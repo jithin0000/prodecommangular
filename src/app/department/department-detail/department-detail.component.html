@@ -1,1 +1,8 @@
-<p>department-detail works!</p>
+<div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="30px">
+    <div *ngIf="department$ | async as dep" fxFlex="50%">
+        <h3>Department</h3>
+
+        <h5>{{dep.name}}</h5>
+
+    </div>
+</div>

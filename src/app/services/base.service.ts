@@ -29,6 +29,11 @@ export class BaseService<T> {
   public getById(id: number){
     return this.http.get<T>(this.url+"/"+id)
   }
+
+  public create(body: T)
+  {
+    return this.http.post(this.url+"/new", body)
+  }
   
 
 }

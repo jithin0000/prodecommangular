@@ -47,7 +47,7 @@ export class CategoryEffects {
 
   createCategory$  = createEffect(() => this.actions$.pipe(
     ofType(CategoryActionTypes.CREATE_CATEGORY),
-    switchMap( (body:{payload: CategoryRequestDto}) => this.categoryService.create(body.payload).pipe(
+    switchMap( (body:{payload: CategoryRequestDto}) => this.categoryService.createCategory(body.payload).pipe(
       map(data => ({type: CategoryActionTypes.CREATE_CATEGORY_SUCCESS, payload: data})),
       catchError(error => of({ type: CategoryActionTypes.CREATE_CATEGORY_FAILURE, payload: error}))
     ) )

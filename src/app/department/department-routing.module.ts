@@ -4,6 +4,7 @@ import { DepartmentComponent } from './department/department.component';
 import { DepartmentDetailComponent } from './department-detail/department-detail.component';
 import { AddDepartmentComponent } from './add-department/add-department.component';
 import { DepartmentListComponent } from './department-list/department-list.component';
+import { DepartmentResolverService } from './services/department/resolver/department-resolver.service';
 
 
 const routes: Routes = [
@@ -12,6 +13,9 @@ const routes: Routes = [
             { path: '', component: DepartmentComponent },
             {
                 path: 'detail/:id', component: DepartmentDetailComponent,
+                resolve:{
+                    department: DepartmentResolverService 
+                },
             },
             { path: 'add', component: AddDepartmentComponent },
             { path: 'item', component: DepartmentListComponent },
