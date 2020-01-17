@@ -4,6 +4,9 @@ import { ActivatedRoute } from '@angular/router';
 import { Department } from 'src/app/models/Department.model';
 import { map } from 'rxjs/operators';
 import { Observable } from 'rxjs';
+import { Store } from '@ngrx/store';
+import { DepartmentsState } from '../DepartmentsState';
+import { selectedDepartmentSelector } from '../store';
 
 @Component({
   selector: 'app-department-detail',
@@ -13,11 +16,18 @@ import { Observable } from 'rxjs';
 export class DepartmentDetailComponent implements OnInit {
   department$: Observable<Department>;
 
-  constructor(private router: ActivatedRoute) { }
+  constructor(private router: ActivatedRoute,
+    private store : Store<DepartmentsState>) { }
 
   ngOnInit() {
+    this.department$ = this.store.select(selectedDepartmentSelector)
 
-  this.department$ =   this.router.data.pipe(map((data:{department: Department})=> data.department))
+    this.department$.subscribe(res=>{
+      if (res === undefined) {
+        this.department$ =   this.router.data.pipe(map((data:{department: Department})=> data.department))
+      }
+    })
+
     
   }
 
