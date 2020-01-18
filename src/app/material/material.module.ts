@@ -14,6 +14,7 @@ import {MatChipsModule} from '@angular/material/chips';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatCardModule} from '@angular/material/card';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
 
 
 @NgModule({
@@ -34,7 +35,8 @@ import {MatCardModule} from '@angular/material/card';
     MatChipsModule,
     MatSnackBarModule,
     MatToolbarModule,
-    MatCardModule
+    MatCardModule,
+    MatProgressBarModule
     
   ]
 })

@@ -12,6 +12,7 @@ import { StoreModule } from '@ngrx/store';
 import { rootReducers } from './store/reducers';
 import { EffectsModule } from '@ngrx/effects';
 import { productEffects } from './store/effects';
+import { CategoryModule } from '../category/category.module';
 
 
 
@@ -22,7 +23,8 @@ import { productEffects } from './store/effects';
     MaterialModule,
     ProductRoutingModule,
     StoreModule.forFeature("products", rootReducers),
-    EffectsModule.forFeature(productEffects)
+    EffectsModule.forFeature(productEffects),
+    CategoryModule
   ]
 })
 export class ProductModule { }

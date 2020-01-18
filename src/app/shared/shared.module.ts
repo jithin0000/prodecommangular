@@ -5,11 +5,12 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { HttpClientModule } from '@angular/common/http'
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { DradDropDirective } from './drag/drad-drop.directive';
+import { FormFieldComponent } from './widget/form-field/form-field.component';
 
 
 
 @NgModule({
-  declarations: [DradDropDirective],
+  declarations: [DradDropDirective, FormFieldComponent],
   imports: [
   ],
   exports: [
@@ -18,7 +19,8 @@ import { DradDropDirective } from './drag/drad-drop.directive';
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
-    DradDropDirective
+    DradDropDirective,
+    FormFieldComponent
 
   ]
 })

@@ -1,21 +1,95 @@
-<div fxLayout="row" fxLayoutAlign="start start" fxLayoutGap="0px">
-    <div fxFlex="100%">
-        <div fxLayout="row" fxLayoutAlign="start start" fxLayoutGap="10px">
-            <div fxFlex="100%">
-                <h2>upload file</h2>
-                    <input  placeholder="upload file" type="file" multiple >
+<div class="container">
+    <div fxLayout="row" fxLayoutAlign="center start" >
+
+       
+
+        <div fxFlex="50%">
+            <div fxLayout="row" fxLayoutAlign="start start" fxLayoutGap="10px">
+                <div fxFlex="100%">
+                    <h2>upload file</h2>
+                    <input (change)="dropZoneState($event.target.files)" 
+                     placeholder="upload file" type="file" multiple >
+                </div>
+            </div>
+            <div fxLayout="row" class="mt-3" fxLayoutAlign="center center" fxLayoutGap="10px">
+                <div fxFlex="50%" fxFlexAlign="center" >
+                   <div [ngClass]="onTop ? 'dropzone active' : 'dropzone' " 
+                   appDradDrop
+                   (fileHovered)="handleDrop($event)"
+                   (filesDroped)="dropZoneState($event)"
+                   >
+                    <mat-icon class="file-icon" >cloud_upload</mat-icon>
+                   </div>
+                </div>
+            </div>
+
+            <div *ngIf="percentage !== 0" fxLayout="row wrap" class="mt-3" fxLayoutAlign="center start" fxLayoutGap="10px">
+                <div *ngFor="let photo of photoList" fxFlex="80%">
+                    <mat-progress-bar
+                class="thick-progressbar"
+                color="accent"
+                    mode="determinate"
+                    [value]="percentage">
+                </mat-progress-bar>
+                <h4 class="success-text" > uploaded successfully</h4>
+                </div>
+            </div>
+
+            <div fxLayout="row wrap" class="mt-3" fxLayoutAlign="start start" fxLayoutGap="10px">
+                <div *ngFor="let photo of photoList" fxFlex="20%">
+                    <img [src]="photo.imageUrl" height="100" width="100" alt="">
+                </div>
             </div>
         </div>
-        <div fxLayout="row" class="mt-3" fxLayoutAlign="center center" fxLayoutGap="10px">
-            <div fxFlex="100%" fxFlexAlign="center" >
-               <div [ngClass]="onTop ? 'dropzone active' : 'dropzone' " 
-               appDradDrop
-               (fileHovered)="handleDrop($event)"
-               (filesDroped)="dropZoneState($event)"
-               >
-                <mat-icon class="file-icon" >cloud_upload</mat-icon>
-               </div>
-            </div>
+
+        <div fxFlex="100%"  >
+            <h2>Add Product</h2>
+
+            <form (ngSubmit)="onSubmit()" [formGroup]="productForm" >
+                
+                <div fxLayout="column" fxLayoutAlign="start start" fxLayoutGap="10px">
+                    <mat-form-field class="m-input" >
+                        <input formControlName="name" matInput placeholder="name" >
+                        <mat-error  >this field is required</mat-error >
+                    </mat-form-field>
+                    
+                    <mat-form-field class="m-input" >
+                        <textarea formControlName="description" matInput  cols="100" rows="3" placeholder="description" ></textarea>
+                    </mat-form-field>
+                    
+                    <mat-form-field class="m-input" >
+                        <input formControlName="price" matInput placeholder="price" type="number">
+                    </mat-form-field>
+                    <mat-form-field class="m-input" >
+                        <input matInput formControlName="quantity" placeholder="quantity" type="number">
+                    </mat-form-field>
+
+                    <mat-form-field class="m-input" >
+                        <mat-select formControlName="category" 
+                        *ngIf="categories$ | async as categories"  placeholder="select category" >
+                            <mat-option *ngFor="let category of categories.entities; let i=index" [value]="category.id" >
+                                {{category.name}}
+                            </mat-option>
+                        </mat-select>
+                        <mat-error *ngIf="category.invalid && category.touched" >this field is required</mat-error>
+                    </mat-form-field>
+
+                <mat-form-field class="m-input" >
+                    <input formControlName="size" matInput placeholder="select size" >
+                </mat-form-field>
+
+                <mat-form-field class="m-input" >
+                    <input formControlName="color" matInput placeholder="select color" >
+                </mat-form-field>
+                    
+                </div>
+
+                <button [disabled]="productForm.invalid" color="primary" mat-raised-button>submit</button>
+                
+            </form>
+        
         </div>
+
+        
     </div>
 </div>

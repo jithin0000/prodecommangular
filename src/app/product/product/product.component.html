@@ -1,13 +1,15 @@
 <div class="container">
     <div fxLayout="row" fxLayoutAlign="space-around start" fxLayoutGap="20px">
-        <div fxFlex="50%" fxFlexFill>
+        <div fxFlex="100%" fxFlexFill>
             <h2>Products</h2>
+            <button routerLink="/product/add" color="primary" mat-raised-button>
+                <mat-icon>add</mat-icon>
+            </button>
             <hr>
             <app-product-list></app-product-list>
         </div>
-        <div fxFlex="50%" fxFlexFill>
-            <app-add-product></app-add-product>
-        </div>
+       
     </div>
+
 
 </div>
