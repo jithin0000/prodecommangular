@@ -1,0 +1,21 @@
+<div fxLayout="row" fxLayoutAlign="start start" fxLayoutGap="0px">
+    <div fxFlex="100%">
+        <div fxLayout="row" fxLayoutAlign="start start" fxLayoutGap="10px">
+            <div fxFlex="100%">
+                <h2>upload file</h2>
+                    <input  placeholder="upload file" type="file" multiple >
+            </div>
+        </div>
+        <div fxLayout="row" class="mt-3" fxLayoutAlign="center center" fxLayoutGap="10px">
+            <div fxFlex="100%" fxFlexAlign="center" >
+               <div [ngClass]="onTop ? 'dropzone active' : 'dropzone' " 
+               appDradDrop
+               (fileHovered)="handleDrop($event)"
+               (filesDroped)="dropZoneState($event)"
+               >
+                <mat-icon class="file-icon" >cloud_upload</mat-icon>
+               </div>
+            </div>
+        </div>
+    </div>
+</div>

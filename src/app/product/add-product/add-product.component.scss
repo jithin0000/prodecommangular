@@ -1,0 +1,20 @@
+.dropzone{
+    padding: 50px;
+    border: 5px dashed #6d6c6c;
+    text-align: center;
+
+    .file-icon{
+        font-size: 4rem;
+    }
+
+    &.active{
+        border: 5px solid rgb(118, 214, 231);
+        transition: all 1s linear;
+
+        .file-icon{
+            color: lightblue;
+            transform: scale(1.2);
+        }
+
+    }
+}

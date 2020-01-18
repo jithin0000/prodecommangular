@@ -1,1 +1,64 @@
-<p>product-list works!</p>
+<div fxLayout="row" fxLayoutAlign="space-around center" fxLayoutGap="10px">
+    
+    <div fxFlex="100%">
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th></th>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Quanity</th>
+                    <th>Category</th>
+                    <th>Rating</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody *ngIf="products$ | async as products" >
+                <tr *ngIf="loading$ | async as loading ; else loaded" >
+                    <mat-spinner *ngIf="loading" ></mat-spinner>
+                </tr>
+                <ng-template #loaded>
+                    <tr *ngFor="let prod of products.entities; let i=index" >
+                        <td>{{i+1}}</td>
+                        <td>
+                            <img height="50px" width="50px" src="{{prod.photos[0].imageUrl}}" alt="">
+                        </td>
+                        <td>{{prod.name}}</td>
+                        <td>{{prod.price}}</td>
+                        <td>{{prod.quantity}}</td>
+                        <td>{{prod.category.name}}</td>
+                        <td>{{prod.rating}}</td>
+                        <td>
+                            <div fxLayout="row" fxLayoutAlign="space-around center" fxLayoutGap="20px">
+                                <button 
+                                routerLink="/product/detail/{{prod.id}}"
+                                color="primary" mat-raised-button>
+                                    <mat-icon>details</mat-icon>
+                                </button>
+                                <button color="accent" mat-raised-button>
+                                    <mat-icon>edit</mat-icon>
+                                </button>
+                                <button (click)="delete(prod.id)" color="warn" mat-raised-button>
+                                    <mat-icon>delete</mat-icon>
+                                </button>
+                            </div>
+                        </td>
+                    </tr>
+                </ng-template>
+                
+                
+            </tbody>
+        </table>
+        <div fxLayout="row" fxLayoutAlign="end start" fxLayoutGap="10px">
+            <mat-paginator *ngIf="products$ | async as products" [length]="products.totalElements"
+            [pageSize]="products.size"
+            [pageIndex]="products.number"
+            [pageSizeOptions]="[5,10,20,30]"
+            (page)="changePage($event)"
+            
+            >
+        </mat-paginator>
+        </div>
+    </div>
+</div>

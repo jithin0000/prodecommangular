@@ -1,1 +1,16 @@
-<p>product-detail works!</p>
+<div class="container">
+    <div fxLayout="row" *ngIf="product$ | async as product" fxLayoutAlign="space-around start" fxLayoutGap="10px">
+        <div  fxFlex="100%">
+            <h2>{{product.name}}</h2>
+            <h4>Price : {{product.price}}</h4>
+            <h6>Quantity : {{product.quantity}}</h6>
+            <p class="mat-body mat-body-1">
+                {{product.description}}
+            </p>
+        </div>
+        <div fxFlex="100%">
+            <h4>product details</h4>
+            <img src="{{product.photos[0].imageUrl}}" alt="no images to show">
+        </div>
+    </div>
+</div>

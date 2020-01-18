@@ -4,11 +4,12 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { HttpClientModule } from '@angular/common/http'
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { DradDropDirective } from './drag/drad-drop.directive';
 
 
 
 @NgModule({
-  declarations: [],
+  declarations: [DradDropDirective],
   imports: [
   ],
   exports: [
@@ -16,7 +17,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     FlexLayoutModule,
     HttpClientModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    DradDropDirective
 
   ]
 })

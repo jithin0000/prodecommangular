@@ -3,14 +3,26 @@ import { CommonModule } from '@angular/common';
 import { ProductComponent } from './product/product.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
-import { AddDetailComponent } from './add-detail/add-detail.component';
+import { AddProductComponent } from './add-product/add-product.component';
+import { SharedModule } from '../shared/shared.module';
+import { MaterialModule } from '../material/material.module';
+import { ProductRoutingModule } from './product.routing.module';
+import { ProductItemComponent } from './product-item/product-item.component';
+import { StoreModule } from '@ngrx/store';
+import { rootReducers } from './store/reducers';
+import { EffectsModule } from '@ngrx/effects';
+import { productEffects } from './store/effects';
 
 
 
 @NgModule({
-  declarations: [ProductComponent, ProductListComponent, ProductDetailComponent, AddDetailComponent],
+  declarations: [ProductComponent, ProductListComponent, ProductDetailComponent, AddProductComponent, ProductItemComponent],
   imports: [
-    CommonModule
+    SharedModule,
+    MaterialModule,
+    ProductRoutingModule,
+    StoreModule.forFeature("products", rootReducers),
+    EffectsModule.forFeature(productEffects)
   ]
 })
 export class ProductModule { }
