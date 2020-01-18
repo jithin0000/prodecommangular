@@ -16,6 +16,10 @@ const routes: Routes = [
     path: 'product', 
     loadChildren: ()=> import('./product/product.module').then( pm => pm.ProductModule)
   },
+  {
+    path:'admin',
+    loadChildren: ()=> import('./admin/admin.module').then(am => am.AdminModule)
+  },
  {
    path:'', redirectTo: 'category', pathMatch:'full'
  }
