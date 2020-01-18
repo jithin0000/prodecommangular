@@ -11,6 +11,7 @@ import { selectCategories, getCategory } from 'src/app/category/store';
 import { UploadService } from 'src/app/services/upload/upload.service';
 import { HttpEventType, HttpResponse } from '@angular/common/http';
 import { Photo } from 'src/app/models/Photo.model';
+import { createProduct } from '../store/actions';
 
 @Component({
   selector: 'app-add-product',
@@ -77,6 +78,16 @@ export class AddProductComponent implements OnInit {
   }
 
   onSubmit(){
+
+    if (this.productForm.valid) {
+
+      const body ={
+        ...this.productForm.value, 
+        photos: this.photoList.map(item => item.id)
+      }
+
+      this.store.dispatch(createProduct({payload: body}))
+    }
 
   }
 

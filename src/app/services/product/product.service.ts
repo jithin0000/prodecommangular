@@ -6,6 +6,7 @@ import { PageRequestDto } from 'src/app/models/dto/PageRequestDto';
 import { debounceTime, distinctUntilChanged, switchMap } from 'rxjs/operators';
 import { Observable } from 'rxjs';
 import { Page } from 'src/app/models/page.model';
+import { ProductRequestDto } from 'src/app/models/dto/ProductRequestDto';
 
 @Injectable({
   providedIn: 'root'
@@ -14,6 +15,12 @@ export class ProductService extends BaseService<Product> {
 
   constructor(http: HttpClient) {
     super(http, "/product")
+   }
+
+
+   public createProduct(body: ProductRequestDto)
+   {
+     return this.httpClient.post<Product>(this.url+"/new",body)
    }
 
 

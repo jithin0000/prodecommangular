@@ -5,6 +5,7 @@ import { ProductActionTypes } from '../actions';
 import { switchMap, map, catchError } from 'rxjs/operators';
 import { PageRequestDto } from 'src/app/models/dto/PageRequestDto';
 import { of } from 'rxjs';
+import { ProductRequestDto } from 'src/app/models/dto/ProductRequestDto';
 
 @Injectable()
 export class ProductEffect{
@@ -33,5 +34,18 @@ export class ProductEffect{
        
         )
     );
+
+    createProduct$ = createEffect(() => this.actions$.pipe(
+        ofType(ProductActionTypes.CREATE_PRODUCT),
+        switchMap((body: {payload: ProductRequestDto})=> 
+        this.service.createProduct(body.payload).pipe(
+            map(item => ({type: ProductActionTypes.CREATE_PRODUCT_SUCCESS, payload: body.payload})),
+            catchError(error => of({type: ProductActionTypes.CREATE_PRODUCT_FAILURE, payload: error}))
+        ))
+       
+        )
+    );
+
+    
 
 }

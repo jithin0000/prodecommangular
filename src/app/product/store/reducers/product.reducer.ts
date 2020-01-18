@@ -1,7 +1,7 @@
 import { Page } from 'src/app/models/page.model';
 import { Product } from 'src/app/models/Product.model';
 import { createReducer, on } from '@ngrx/store';
-import { loadPorducts, loadPorductsSuccessfully, loadPorductsFailed, deleteProduct, deleteProductSuccess, deleteProductFailure } from '../actions';
+import { loadPorducts, loadPorductsSuccessfully, loadPorductsFailed, deleteProduct, deleteProductSuccess, deleteProductFailure, createProduct, createProductSuccess, createProductFailure } from '../actions';
 
 export interface ProductState{
     data: Page<Product>, loading: boolean, loaded: boolean, added: boolean, error: boolean, 
@@ -62,7 +62,26 @@ export const _product_reducer = createReducer(
                 entities: enties.filter(item => item.id !== action.payload)
     }, loaded: true, loading: false}}),
     on(deleteProductFailure, (state, action)=> ({...state, loaded: false, loading: false,
-    error:true, error_message: action.payload}))
+    error:true, error_message: action.payload})),
+
+
+    on(createProduct, (state, action)=>({...state, loaded:false, loading: true, added: false,})),
+    on(createProductSuccess, (state, action)=>{
+        return{
+            ...state, data: {
+                totalPages: state.data.totalPages+1,
+                totalElements: state.data.totalElements+1,
+                numberOfElements: state.data.numberOfElements+1,
+                number: state.data.number+1,
+                size: state.data.size+1,
+                entities: { ...state.data.entities,[action.payload.id]: action.payload}
+    } , loading:false, loaded: true, added: true
+        }
+    }
+    ),
+
+    on(createProductFailure, (state, action)=>({...state, loading: false, loaded: false, error: true, 
+    error_message: action.payload.toString()}))
 
 )
 
