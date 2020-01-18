@@ -20,8 +20,12 @@ const routes: Routes = [
     path:'admin',
     loadChildren: ()=> import('./admin/admin.module').then(am => am.AdminModule)
   },
+  {
+    path:'home',
+    loadChildren: ()=> import('./home/home.module').then(am => am.HomeModule)
+  },
  {
-   path:'', redirectTo: 'category', pathMatch:'full'
+   path:'', redirectTo: 'home', pathMatch:'full'
  }
 ];
 
