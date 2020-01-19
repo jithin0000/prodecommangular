@@ -1,4 +1,26 @@
-<mat-card class="mat-card" >
+<div fxLayout="column" fxLayoutAlign="start start" class="mt-1" fxLayoutGap="10px">
+  <div fxLayout="row" fxLayoutAlign="space-between center" fxLayoutGap="10px">
+    
+  </div>
+  <div class="card-image">
+    <img src="{{product.photos[0].imageUrl}}" width="200px" height="300px" alt="{{product.name}}">
+  </div>
+  <div fxFlex fxFlexFill>
+    <div fxLayout="row" fxLayoutAlign="space-around start" fxLayoutGap="10px">
+      <h6 fxFlex class="mat-headline">{{product.name}}</h6>
+      <p class="mat-body-1"> {{product.description.substring(0,20)}} </p>
+      <hr>
+      <div style="display: flex; justify-content: space-between; align-items: baseline;" >
+        <h5 class="mat-title">&#36;{{product.price}}</h5>
+        <button mat-button>view more</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- <mat-card class="mat-card" fxFlexAlign="center" >
     <mat-card-header >
         <mat-card-title>{{product.name}}</mat-card-title>
         <mat-card-subtitle>{{product.category.name}}</mat-card-subtitle>
@@ -8,8 +30,10 @@
     <mat-card-content>
     {{product.description}}
 
-    <button mat-button>view more</button>
-    <button mat-button>price &#36;{{product.price}}</button>
-    
+   <mat-card-actions>
+     <button routerLink="" mat-button>view more</button>
+     <button mat-button>price &#36;{{product.price}}</button>
+   </mat-card-actions>
+
     </mat-card-content>
-</mat-card>
+</mat-card> -->

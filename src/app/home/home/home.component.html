@@ -87,14 +87,17 @@
 
         <ng-template #loaded >
           <div *ngIf="products$ | async as products"
-               fxLayout="row wrap" fxLayout.xs="column wrap" fxLayoutGap="10px">
+               fxLayout="row wrap" fxLayout.xs="column wrap" fxFlexAlign="space-evenly center"
+               >
 
             <div *ngIf="products.content.length <= 0 else content" >
               <h3>no data tot display</h3>
             </div>
             <ng-template #content>
-              <div *ngFor="let product of products.entities" fxFlex="32%" class="mt-2" >
-                <app-product-card [product]="product" ></app-product-card>
+              <div *ngFor="let product of products.entities"
+              fxLayoutAlign="center center"
+              fxFlex="22%" fxLayoutGap="10px" class="mt-2" >
+                <app-product-card routerLink="/home/detail/{{product.id}}" [product]="product" ></app-product-card>
               </div>
             </ng-template>
 

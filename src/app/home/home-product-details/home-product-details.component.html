@@ -1,1 +1,53 @@
-<p>home-product-details works!</p>
+<div class="container">
+  <div *ngIf="product$ | async as product" fxLayout="row" fxLayout.xs="column" fxLayoutAlign="start start" fxLayoutGap="10px" >
+
+    <div fxFlex="50%" fxLayout="column" >
+
+      <div fxLayout="row" fxLayoutAlign="center center"  >
+        <img fxFlex="100%" height="500px" src="{{product.photos[0].imageUrl}}" alt="{{product.name}}">
+      </div>
+      <div class="mt-2" fxLayout="row" fxLayoutAlign="space-around center" fxLayoutGap="10px" >
+          <img fxFlex="20%" height="100px" width="100px" *ngFor="let photo of product.photos" src="{{photo.imageUrl}}" alt="">
+      </div>
+
+
+    </div>
+
+    <div fxFlex="50%" fxLayout="column" >
+        <h1 class="mat-display-1">{{product.name}}</h1>
+        <mat-divider></mat-divider>
+        <h3> Price : &#36;{{product.price}}</h3>
+      <div class="mt-2">
+        <p class="mat-body-1">{{product.description}}</p>
+      </div>
+
+      <div class="color-sec">
+        <h3 class="mat-subheading">Available colors</h3>
+        <p [style.background-color]="product.color" class="mat-body-1 p-color"></p>
+      </div>
+
+      <div class="material-sec">
+        <h3 class="mat-subheading">Available Size</h3>
+        <p class="mat-body-1"> {{product.size}} </p>
+      </div>
+
+      <div  fxLayout="row">
+       
+        <button (click)="addToCart(product.id)"
+         mat-raised-button *ngIf="isProductIncart ; else notInCart" color="warn" >reomve from cart</button>
+
+        <ng-template #notInCart>
+          <button mat-raised-button color="primary" (click)="addToCart(product.id)">
+            <mat-icon>add</mat-icon>
+            add to cart
+          </button>
+        </ng-template>
+        
+        
+      </div>
+
+    </div>
+
+
+  </div>
+</div>

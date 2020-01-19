@@ -19,18 +19,20 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatRadioModule} from '@angular/material/radio';
+import {MatDividerModule} from '@angular/material/divider';
+import {MatBadgeModule} from '@angular/material/badge';
 
 
 @NgModule({
   declarations: [],
   imports: [
-    
+
   ],
-  exports:[
+  exports: [
     MatButtonModule,
     MatPaginatorModule,
     MatTableModule,
-    MatFormFieldModule, 
+    MatFormFieldModule,
     MatInputModule,
     MatIconModule,
     MatProgressSpinnerModule,
@@ -39,11 +41,11 @@ import {MatRadioModule} from '@angular/material/radio';
     MatChipsModule,
     MatSnackBarModule,
     MatToolbarModule,
-    MatCardModule,
-    MatProgressBarModule,
-    MatSidenavModule,MatRadioModule,
+    MatCardModule,MatBadgeModule,
+    MatProgressBarModule, MatDividerModule,
+    MatSidenavModule, MatRadioModule,
     MatExpansionModule, MatCheckboxModule
-    
+
   ]
 })
 export class MaterialModule { }

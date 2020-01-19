@@ -1,0 +1,28 @@
+<mat-toolbar color="primary" >
+  <mat-toolbar-row  >
+
+    <div fxLayout="row" fxLayoutAlign="space-between center" fxLayoutGap="10px" >
+      <div fxFlex >
+       <span class="nav-item" routerLink="/" > <mat-icon>home</mat-icon></span>
+      </div>
+      <div></div>
+      <div fxLayout="row" fxFlexAlign="end center" fxLayoutGap="10px" >
+        <span routerLink="/category" class="nav-item">category</span>
+        <span routerLink="/product" class="nav-item">product</span>
+        <span routerLink="/department" class="nav-item">department</span>
+        <span routerLink="/admin" class="nav-item">dashboard</span>
+        <span routerLink="/cart"*ngIf="cart$ | async as cart" >
+          
+          <mat-icon
+            [matBadge]="cart.products.length"
+            matBadgePosition="above after"
+            matBadgeColor="accent">
+              add_shopping_cart
+          </mat-icon>
+        </span>
+      </div>
+
+    </div>
+
+  </mat-toolbar-row >
+</mat-toolbar>
