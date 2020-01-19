@@ -1,40 +1,39 @@
 <div fxLayout="row" class="home" fxLayoutAlign="start start" fxLayoutGap="20px">
-    <div  fxFlex="20%">
+    <div fxFlex="20%">
         <div class="filter-sec mat-elevation-z8 ">
             <mat-expansion-panel class="mat-elevation-z0 exp-panle" expanded=true>
                 <mat-expansion-panel-header>
-                    Department
+                    Categories
                 </mat-expansion-panel-header>
-                    <mat-list>
-                        <mat-list-item class="exp-item" >first department</mat-list-item>
-                        <mat-list-item class="exp-item" >second department</mat-list-item>
-                        <mat-list-item class="exp-item" >Third department</mat-list-item>
-    
-                    </mat-list>
+                <mat-selection-list #categorylist
+                 (selectionChange)="selectCategory(categorylist._value)"  *ngIf="categories$ | async as categories" >
+                    <mat-list-option *ngFor="let category of categories.entities" [value]="category.id" >
+                        {{ category.name }}
+                    </mat-list-option>
+                </mat-selection-list>
             </mat-expansion-panel>
 
             <mat-expansion-panel class="mat-elevation-z0 exp-panle" expanded=true>
-                <mat-expansion-panel-header>
-                    Brand
+                <mat-expansion-panel-header  >
+                    Departments
                 </mat-expansion-panel-header>
-                    <mat-list>
-                        <mat-list-item class="exp-item" >first department</mat-list-item>
-                        <mat-list-item class="exp-item" >second department</mat-list-item>
-                        <mat-list-item class="exp-item" >Third department</mat-list-item>
-    
-                    </mat-list>
+                <mat-selection-list *ngIf="departments$ | async as departments" >
+                    <mat-list-option *ngFor="let dep of departments.entities" >
+                        {{ dep.name }}
+                    </mat-list-option>
+                </mat-selection-list>
             </mat-expansion-panel>
 
             <mat-expansion-panel class="mat-elevation-z0 exp-panle" expanded=true>
                 <mat-expansion-panel-header>
                     Rating
                 </mat-expansion-panel-header>
-                    <mat-list>
-                        <mat-list-item class="exp-item" >first department</mat-list-item>
-                        <mat-list-item class="exp-item" >second department</mat-list-item>
-                        <mat-list-item class="exp-item" >Third department</mat-list-item>
-    
-                    </mat-list>
+                <mat-list>
+                    <mat-list-item class="exp-item">first department</mat-list-item>
+                    <mat-list-item class="exp-item">second department</mat-list-item>
+                    <mat-list-item class="exp-item">Third department</mat-list-item>
+
+                </mat-list>
             </mat-expansion-panel>
 
             <mat-expansion-panel class="mat-elevation-z0 exp-panle" expanded=true>
@@ -42,7 +41,7 @@
                     Material
                 </mat-expansion-panel-header>
                 <mat-radio-group>
-                   <div fxLayout="row wrap" fxLayoutAlign="start center" fxLayoutGap="30px">
+                    <div fxLayout="row wrap" fxLayoutAlign="start center" fxLayoutGap="30px">
                         <mat-radio-button value="value1">cotton</mat-radio-button>
                         <mat-radio-button value="value2">jeans</mat-radio-button>
                         <mat-radio-button value="value2">jeans</mat-radio-button>
@@ -51,7 +50,7 @@
                 </mat-radio-group>
             </mat-expansion-panel>
 
-            <mat-expansion-panel expanded class="mat-elevation-z0 exp-panle" >
+            <mat-expansion-panel expanded class="mat-elevation-z0 exp-panle">
                 <mat-expansion-panel-header>
                     Color
                 </mat-expansion-panel-header>
@@ -64,7 +63,7 @@
                 </div>
             </mat-expansion-panel>
 
-            <mat-expansion-panel expanded class="mat-elevation-z0 exp-panle" >
+            <mat-expansion-panel expanded class="mat-elevation-z0 exp-panle">
                 <mat-expansion-panel-header>
                     title
                 </mat-expansion-panel-header>
@@ -73,14 +72,41 @@
                     <mat-checkbox>second</mat-checkbox>
                     <mat-checkbox>second</mat-checkbox>
                     <mat-checkbox>second</mat-checkbox>
-                    
+
                 </div>
             </mat-expansion-panel>
-            
-            
+
+
         </div>
     </div>
-    <div fxFlex="80%">
-        <h1>This is it</h1>
+    <div fxLayout="column" fxFlex="80%">
+
+      <div fxFlex *ngIf="productLoading$ | async as loading else loaded" >
+        <mat-spinner></mat-spinner>
+      </div>
+
+        <ng-template #loaded >
+          <div *ngIf="products$ | async as products"
+               fxLayout="row wrap" fxLayout.xs="column wrap" fxLayoutGap="10px">
+
+            <div *ngIf="products.content.length <= 0 else content" >
+              <h3>no data tot display</h3>
+            </div>
+            <ng-template #content>
+              <div *ngFor="let product of products.entities" fxFlex="32%" class="mt-2" >
+                <app-product-card [product]="product" ></app-product-card>
+              </div>
+            </ng-template>
+
+
+          </div>
+        </ng-template>
+      <mat-paginator
+        *ngIf="products$ | async as productPage"
+        (page)="changePage($event)"
+        [pageIndex]="productPage.number"
+        [length]="productPage.totalElements"
+        [pageSize]="productPage.size"
+        [pageSizeOptions]="[5, 10, 25, 100]"></mat-paginator>
     </div>
 </div>

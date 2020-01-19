@@ -5,5 +5,5 @@ export interface Category{
     name: string;
     createAt: string;
     updatedAt?: string;
-    departments?: Department[]
+  departments?: Department[];
 }

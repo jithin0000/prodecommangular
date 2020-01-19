@@ -5,11 +5,13 @@ import { SharedModule } from '../shared/shared.module';
 import { MaterialModule } from '../material/material.module';
 import { HomeRoutingModule } from './home.routing.module';
 import { ProductModule } from '../product/product.module';
+import { HomeListComponent } from './home-list/home-list.component';
+import { HomeProductDetailsComponent } from './home-product-details/home-product-details.component';
 
 
 
 @NgModule({
-  declarations: [HomeComponent],
+  declarations: [HomeComponent, HomeListComponent, HomeProductDetailsComponent],
   imports: [
     SharedModule,
     MaterialModule,
