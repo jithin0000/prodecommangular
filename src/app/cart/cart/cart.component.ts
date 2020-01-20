@@ -1,4 +1,10 @@
 import { Component, OnInit } from '@angular/core';
+import { Store } from '@ngrx/store';
+import { CartModuleState } from '../store/CartModuleState';
+import { cartSelector } from '../store/selectors';
+import { getCart } from '../store/action';
+import { Cart } from 'src/app/models/dto/Cart';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-cart',
@@ -7,9 +13,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CartComponent implements OnInit {
 
-  constructor() { }
+  cart$: Observable<Cart>
+  displayedColumns = [ 'name', 'quantity','price']
+
+  constructor(
+    private store: Store<CartModuleState>
+  ) { }
 
   ngOnInit() {
+
+
+    this.store.dispatch(getCart())
+    this.cart$ = this.store.select(cartSelector)
+
   }
 
 }

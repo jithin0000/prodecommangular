@@ -1,4 +1,43 @@
-<mat-toolbar color="primary" >
+<div fxLayout="row" class="navbar" fxLayoutAlign="space-evenly center" fxLayoutGap="20px">
+  <div fxFlex="5%" fxLayoutAlign="end">
+    <img height="90px" width="90px" src="../../../assets/images/logo/logo.png" alt="">
+  </div>
+  <div fxFlex="25%">
+  <div fxLayout="row" fxLayoutAlign="start start" fxLayoutGap="30px">
+    <a class="nav-item" routerLink="#">men</a>
+    <a class="nav-item" routerLink="#">women</a>
+    <a class="nav-item" routerLink="#">kids</a>
+    <a class="nav-item" routerLink="#">Other</a>
+    <a class="nav-item" routerLink="#">Other</a>
+  </div>
+  </div>
+  <div fxFlex="40%" >
+    
+    <div class="nav-search">
+      <mat-icon class="search-icon" >search</mat-icon>
+      <input type="text" class="search-input">
+    </div>
+
+  </div>
+  <div fxFlex="5%">
+    <div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="20px">
+      <mat-icon class="nav-icon" >account_box</mat-icon>
+      <a href="" *ngIf="cart$ | async as cart" >
+        <mat-icon
+            [matBadge]="cart.products.length"
+            matBadgePosition="above after"
+            matBadgeColor="accent">
+            shopping_basket
+          </mat-icon>
+      </a>
+      <mat-icon class="nav-icon" >shop_to</mat-icon>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- <mat-toolbar color="primary" >
   <mat-toolbar-row  >
 
     <div fxLayout="row" fxLayoutAlign="space-between center" fxLayoutGap="10px" >
@@ -16,6 +55,7 @@
           <mat-icon
             [matBadge]="cart.products.length"
             matBadgePosition="above after"
+            class="nav-item"
             matBadgeColor="accent">
               add_shopping_cart
           </mat-icon>
@@ -25,4 +65,4 @@
     </div>
 
   </mat-toolbar-row >
-</mat-toolbar>
+</mat-toolbar> -->
