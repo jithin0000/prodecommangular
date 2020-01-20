@@ -1,115 +1,80 @@
-<div fxLayout="row" class="home" fxLayoutAlign="start start" fxLayoutGap="20px">
-    <div fxFlex="20%">
-        <div class="filter-sec ">
-            <mat-expansion-panel class="mat-elevation-z0 exp-panle" expanded=true>
-                <mat-expansion-panel-header>
-                    Categories
-                </mat-expansion-panel-header>
-                <mat-selection-list #categorylist
-                 (selectionChange)="selectCategory(categorylist._value)"  *ngIf="categories$ | async as categories" >
-                    <mat-list-option *ngFor="let category of categories.entities" [value]="category.id" >
-                        {{ category.name }}
-                    </mat-list-option>
-                </mat-selection-list>
-            </mat-expansion-panel>
+<div class="container">
+    <div fxLayout="row" style="font-weight:lighter" fxLayoutAlign="start start" fxLayoutGap="10px">
+        <mat-list-item matLine>
+            <div mat-line> Home  /  t-shirts  /  men</div>
+        </mat-list-item>
+    </div>
 
-            <mat-expansion-panel class="mat-elevation-z0 exp-panle" expanded=true>
-                <mat-expansion-panel-header  >
-                    Departments
-                </mat-expansion-panel-header>
-                <mat-selection-list *ngIf="departments$ | async as departments" >
-                    <mat-list-option *ngFor="let dep of departments.entities" >
-                        {{ dep.name }}
-                    </mat-list-option>
-                </mat-selection-list>
-            </mat-expansion-panel>
+    <div fxLayout="row" fxLayoutAlign="start start" class="mt-1" fxLayoutGap="0px">
+        <div style="font-size: 1em;">Searched Item - <span class="grey-item" >1856 items</span></div>
+    </div>
 
-            <mat-expansion-panel class="mat-elevation-z0 exp-panle" expanded=true>
-                <mat-expansion-panel-header>
-                    Rating
-                </mat-expansion-panel-header>
-                <mat-list>
-                    <mat-list-item class="exp-item">first department</mat-list-item>
-                    <mat-list-item class="exp-item">second department</mat-list-item>
-                    <mat-list-item class="exp-item">Third department</mat-list-item>
+    <div fxLayout="row" class="mt-1" fxLayoutAlign="space-between center" fxLayoutGap="0px">
+        <div fxFlex="30%">
+            <h3>Filters</h3>
+        </div>
+        <div fxFlex="50%">
 
-                </mat-list>
-            </mat-expansion-panel>
-
-            <mat-expansion-panel class="mat-elevation-z0 exp-panle" expanded=true>
-                <mat-expansion-panel-header>
-                    Material
-                </mat-expansion-panel-header>
-                <mat-radio-group>
-                    <div fxLayout="row wrap" fxLayoutAlign="start center" fxLayoutGap="30px">
-                        <mat-radio-button value="value1">cotton</mat-radio-button>
-                        <mat-radio-button value="value2">jeans</mat-radio-button>
-                        <mat-radio-button value="value2">jeans</mat-radio-button>
-                        <mat-radio-button value="value2">jeans</mat-radio-button>
-                    </div>
-                </mat-radio-group>
-            </mat-expansion-panel>
-
-            <mat-expansion-panel expanded class="mat-elevation-z0 exp-panle">
-                <mat-expansion-panel-header>
-                    Color
-                </mat-expansion-panel-header>
-                <div fxLayout="row wrap" fxLayoutAlign="start center" fxLayoutGap="30px">
-                    <mat-checkbox>first</mat-checkbox>
-                    <mat-checkbox>first</mat-checkbox>
-                    <mat-checkbox>first</mat-checkbox>
-                    <mat-checkbox>first</mat-checkbox>
-                    <mat-checkbox>first</mat-checkbox>
-                </div>
-            </mat-expansion-panel>
-
-            <mat-expansion-panel expanded class="mat-elevation-z0 exp-panle">
-                <mat-expansion-panel-header>
-                    title
-                </mat-expansion-panel-header>
-                <div fxLayout="row wrap" fxLayoutAlign="start start" fxLayoutGap="30px">
-                    <mat-checkbox>second</mat-checkbox>
-                    <mat-checkbox>second</mat-checkbox>
-                    <mat-checkbox>second</mat-checkbox>
-                    <mat-checkbox>second</mat-checkbox>
-
-                </div>
-            </mat-expansion-panel>
-
-
+            
+            
+        </div>
+        <div fxFlex="20%">
+            <h5>Sort by</h5>
         </div>
     </div>
-    <div fxLayout="column" fxFlex="80%">
+    <mat-divider></mat-divider>
 
-      <div fxFlex *ngIf="productLoading$ | async as loading else loaded" >
-        <mat-spinner></mat-spinner>
-      </div>
+    <div fxLayout="row" fxLayoutAlign="start start" fxLayoutGap="10px">
+        <div fxFlex="20%" class="side-sec">
+            <mat-list dense >
+                <mat-list-item><mat-radio-button class="filter-option" value="value">Men</mat-radio-button></mat-list-item>
+                <mat-list-item><mat-radio-button class="filter-option" value="value">Women</mat-radio-button></mat-list-item>
+                <mat-list-item><mat-radio-button class="filter-option" value="value">Kids</mat-radio-button></mat-list-item>
+                <mat-list-item><mat-radio-button class="filter-option" value="value">Other</mat-radio-button></mat-list-item>
+            </mat-list>
+            <mat-divider></mat-divider>
+            <mat-list>
+                <h5>BRAND</h5>
+                <mat-selection-list #shoes dense>
+                    <mat-list-option >ADDIDAS</mat-list-option>
+                    <mat-list-option >NIKE</mat-list-option>
+                    <mat-list-option >PUMA</mat-list-option>
+                  </mat-selection-list>
+            </mat-list>
+            <mat-divider></mat-divider>
 
-        <ng-template #loaded >
-          <div *ngIf="products$ | async as products"
-               fxLayout="row wrap" fxLayout.xs="column wrap" fxFlexAlign="space-evenly center"
-               >
+            <mat-list>
+                <h5>COLOR</h5>
+                <mat-selection-list #shoes dense>
+                    <mat-list-option >RED</mat-list-option>
+                    <mat-list-option >BLUE</mat-list-option>
+                    <mat-list-option >YELLOW</mat-list-option>
+                  </mat-selection-list>
+            </mat-list>
+            <mat-divider></mat-divider>
 
-            <div *ngIf="products.content.length <= 0 else content" >
-              <h3>no data tot display</h3>
+            <mat-list>
+                <h5>PRICE RANGE</h5>
+                <mat-list-item>
+                    <mat-slider color="primary" min="0" max="500" step="1" value="100"></mat-slider>
+                </mat-list-item>
+            </mat-list>
+
+        </div>
+
+
+
+        <div fxFlex="90%"  style="background-color: rgb(255, 254, 254);">
+            <div fxLayout="row wrap" *ngIf="products$ | async as products"
+             fxLayoutAlign="space-evenly center" fxLayoutGap="2px">
+                <div *ngFor="let product of products.entities"
+                fxLayoutAlign="center"
+                fxFlex="20%"
+                class="mt-2">
+                <app-product-card routerLink="/home/detail/{{product.id}}" [product]="product"></app-product-card>
             </div>
-            <ng-template #content>
-              <div *ngFor="let product of products.entities"
-              fxLayoutAlign="center center"
-              fxFlex="22%" fxLayoutGap="10px" class="mt-2" >
-                <app-product-card routerLink="/home/detail/{{product.id}}" [product]="product" ></app-product-card>
-              </div>
-            </ng-template>
-
-
-          </div>
-        </ng-template>
-      <mat-paginator
-        *ngIf="products$ | async as productPage"
-        (page)="changePage($event)"
-        [pageIndex]="productPage.number"
-        [length]="productPage.totalElements"
-        [pageSize]="productPage.size"
-        [pageSizeOptions]="[5, 10, 25, 100]"></mat-paginator>
+            </div>
+        </div>
     </div>
+
 </div>

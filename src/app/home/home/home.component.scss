@@ -2,11 +2,10 @@
     text-transform: uppercase;
 }
 
-.filter-sec{
-    padding: 16px;
+.side-sec{
     min-height: 100vh;
     height: 100%;
-    border-right: 0.5px solid lightgrey;
+    border-right: .5px solid #dddddd;
 }
 
 .home{
@@ -15,4 +14,10 @@
 
 .exp-panel{
     margin: 8px 0px;
+}
+
+.filter-option{
+    text-transform: capitalize;
+    font-weight: bold;
+    margin: 2px 0px;
 }

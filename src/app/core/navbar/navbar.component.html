@@ -15,7 +15,7 @@
     
     <div class="nav-search">
       <mat-icon class="search-icon" >search</mat-icon>
-      <input type="text" class="search-input">
+      <input type="text" class="search-input" placeholder="search name, brand, other .....">
     </div>
 
   </div>
@@ -35,34 +35,8 @@
   </div>
 </div>
 
-
-
-<!-- <mat-toolbar color="primary" >
-  <mat-toolbar-row  >
-
-    <div fxLayout="row" fxLayoutAlign="space-between center" fxLayoutGap="10px" >
-      <div fxFlex >
-       <span class="nav-item" routerLink="/" > <mat-icon>home</mat-icon></span>
-      </div>
-      <div></div>
-      <div fxLayout="row" fxFlexAlign="end center" fxLayoutGap="10px" >
-        <span routerLink="/category" class="nav-item">category</span>
-        <span routerLink="/product" class="nav-item">product</span>
-        <span routerLink="/department" class="nav-item">department</span>
-        <span routerLink="/admin" class="nav-item">dashboard</span>
-        <span routerLink="/cart"*ngIf="cart$ | async as cart" >
-          
-          <mat-icon
-            [matBadge]="cart.products.length"
-            matBadgePosition="above after"
-            class="nav-item"
-            matBadgeColor="accent">
-              add_shopping_cart
-          </mat-icon>
-        </span>
-      </div>
-
-    </div>
-
-  </mat-toolbar-row >
-</mat-toolbar> -->
+<div fxLayout="row" fxLayoutAlign="center center" class="below-nav"  fxLayoutGap="0px">
+  <div fxFlex="100%" fxLayoutAlign="center">
+    show your latest features
+  </div>
+</div>

@@ -21,6 +21,7 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatRadioModule} from '@angular/material/radio';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatBadgeModule} from '@angular/material/badge';
+import {MatSliderModule} from '@angular/material/slider';
 
 
 @NgModule({
@@ -30,6 +31,7 @@ import {MatBadgeModule} from '@angular/material/badge';
   ],
   exports: [
     MatButtonModule,
+    MatSliderModule,
     MatPaginatorModule,
     MatTableModule,
     MatFormFieldModule,

@@ -29,7 +29,7 @@ body { margin: 0; font-family: Ubuntu, "Helvetica Neue", sans-serif; }
 }
 
 .container{
-    margin: 2%;
+    margin: 2% 5%;
 }
 
 .m-input{
@@ -43,4 +43,10 @@ body { margin: 0; font-family: Ubuntu, "Helvetica Neue", sans-serif; }
 
 .success-text{
     color: rgb(49, 219, 49);
+}
+
+.grey-item{
+    color: grey;
+    font-weight: 100;
+    font-size: 0.8em;
 }

@@ -9,7 +9,7 @@
   font-size: 0.9em;
 }
 .navbar{
-  margin-bottom: 8px;
+  // margin-bottom: 8px;
   border-bottom: 1px solid lightgrey;
 }
 
@@ -32,13 +32,18 @@
     background-color: transparent;
     border: none;
     outline: none;
-    &:focus{
-      
-    }
+    
   }
   border-radius: 5px;
 
   
+}
+
+.below-nav{
+  background-color: #03A584;
+  padding: 8px;
+  color: white;
+  font-size: 0.8em;
 }
 
 
