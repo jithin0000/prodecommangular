@@ -13,6 +13,8 @@ import { departmentSelector, getDepartment } from 'src/app/department/store';
 import {filterProduct, loadPorducts} from 'src/app/product/store/actions';
 import { MatSelectionList } from '@angular/material/list';
 import {PageEvent} from '@angular/material';
+import { BrandService } from 'src/app/services/brand/brand.service';
+import { Brand } from 'src/app/models/Brand.model';
 
 @Component({
   selector: 'app-home',
@@ -24,9 +26,13 @@ export class HomeComponent implements OnInit {
   categories$: Observable<Page<Category>>;
   departments$: Observable<Page<Department>>;
   productLoading$: Observable<boolean>;
+  brands$: Observable<Brand[]>
+
+  
 
   constructor(
-    private store: Store<ProductModuleState>
+    private store: Store<ProductModuleState>,
+    private brandService: BrandService
   ) { }
 
   ngOnInit() {
@@ -41,15 +47,28 @@ export class HomeComponent implements OnInit {
     this.categories$ = this.store.select(selectCategories);
     this.departments$ = this.store.select(departmentSelector);
 
-    this.products$.subscribe(res => console.log(res));
-    this.productLoading$.subscribe(res => console.log(res))
+
+    this.brands$ = this.brandService.getAll().pipe(
+      map(items => items)
+    )
+
+
   }
 
   selectCategory(selectedCategory) {
 
     this.store.dispatch(filterProduct({
       payload: {
-        categories: selectedCategory
+        categories: [selectedCategory]
+      }
+    }));
+  }
+
+  filterByBrands(brands) {
+
+    this.store.dispatch(filterProduct({
+      payload: {
+        brands: brands
       }
     }));
   }

@@ -5,6 +5,7 @@ export interface FilterProductRequest {
   sort?: string;
   search?: string;
   categories?: number[];
+  brands?: number[];
 
 
 }

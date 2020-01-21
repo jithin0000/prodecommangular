@@ -36,28 +36,37 @@
 
     <div fxLayout="row" fxLayoutAlign="start start" fxLayoutGap="10px">
         <div fxFlex="20%" class="side-sec">
-            <mat-list dense >
-                <mat-list-item><mat-radio-button class="filter-option" value="value">Men</mat-radio-button></mat-list-item>
-                <mat-list-item><mat-radio-button class="filter-option" value="value">Women</mat-radio-button></mat-list-item>
-                <mat-list-item><mat-radio-button class="filter-option" value="value">Kids</mat-radio-button></mat-list-item>
-                <mat-list-item><mat-radio-button class="filter-option" value="value">Other</mat-radio-button></mat-list-item>
+            <mat-list *ngIf="categories$ | async as categories" >
+               
+                <mat-list-item *ngFor="let cate of categories.entities"  >
+                    <mat-radio-button  (change)="selectCategory(cate.id)"
+                     class="filter-option" [value]="cate.id">
+                        {{cate.name}}
+                    </mat-radio-button>
+                </mat-list-item>
             </mat-list>
             <mat-divider></mat-divider>
-            <mat-list>
+            <mat-list >
                 <h5>BRAND</h5>
-                <mat-selection-list #shoes dense>
-                    <mat-list-option >ADDIDAS</mat-list-option>
-                    <mat-list-option >NIKE</mat-list-option>
-                    <mat-list-option >PUMA</mat-list-option>
+                <mat-selection-list *ngIf="brands$ | async as brands" 
+                #shoes 
+                dense 
+                (selectionChange)="filterByBrands(shoes._value)"
+                
+
+                >
+                    <mat-list-option *ngFor="let brand of brands" [value]="brand.id" >
+                        {{brand.name}}
+                    </mat-list-option>
                   </mat-selection-list>
-            </mat-list>
+            </mat-list >
             <mat-divider></mat-divider>
 
             <mat-list>
                 <h5>COLOR</h5>
                 <mat-selection-list #shoes dense>
                     <mat-list-option >
-                        <div class="color-div">
+                        <div class="color-div" >
                             <div></div>
                             RED
                         </div>

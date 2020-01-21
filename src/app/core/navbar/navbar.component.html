@@ -22,7 +22,7 @@
   <div fxFlex="5%">
     <div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="20px">
       <mat-icon routerLink="/admin" class="nav-icon" >account_box</mat-icon>
-      <a href="" *ngIf="cart$ | async as cart" >
+      <a routerLink="/cart" *ngIf="cart$ | async as cart" >
         <mat-icon
             [matBadge]="cart.products.length"
             matBadgePosition="above after"
@@ -30,7 +30,9 @@
             shopping_basket
           </mat-icon>
       </a>
-      <mat-icon class="nav-icon" >shop_to</mat-icon>
+      <mat-icon 
+      
+      class="nav-icon" >shop_to</mat-icon>
     </div>
   </div>
 </div>
