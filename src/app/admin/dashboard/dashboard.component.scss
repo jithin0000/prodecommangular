@@ -1,12 +1,10 @@
-.side-drawer{
-    min-height: 100vh;
-    height: 100%;
-    //border: 1px solid #555555;
+.chart{
+    div{
 
-
-.side-item-text {
-  text-transform: capitalize;
-  color: #202000;
-}
-
-}
+        background-color: steelblue;
+        text-align: right;
+        padding: 3px;
+        margin: 1px;
+        color: white;
+    }
+  }

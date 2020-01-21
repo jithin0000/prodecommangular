@@ -1,5 +1,5 @@
 <div fxLayout="row" class="navbar" fxLayoutAlign="space-evenly center" fxLayoutGap="20px">
-  <div fxFlex="5%" fxLayoutAlign="end">
+  <div routerLink="/" style="cursor: pointer;" fxFlex="5%" fxLayoutAlign="end">
     <img height="90px" width="90px" src="../../../assets/images/logo/logo.png" alt="">
   </div>
   <div fxFlex="25%">
@@ -7,7 +7,7 @@
     <a class="nav-item" routerLink="#">men</a>
     <a class="nav-item" routerLink="#">women</a>
     <a class="nav-item" routerLink="#">kids</a>
-    <a class="nav-item" routerLink="#">Other</a>
+    <a class="nav-item" routerLink="#">category</a>
     <a class="nav-item" routerLink="#">Other</a>
   </div>
   </div>
@@ -21,7 +21,7 @@
   </div>
   <div fxFlex="5%">
     <div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="20px">
-      <mat-icon class="nav-icon" >account_box</mat-icon>
+      <mat-icon routerLink="/admin" class="nav-icon" >account_box</mat-icon>
       <a href="" *ngIf="cart$ | async as cart" >
         <mat-icon
             [matBadge]="cart.products.length"
@@ -35,8 +35,4 @@
   </div>
 </div>
 
-<div fxLayout="row" fxLayoutAlign="center center" class="below-nav"  fxLayoutGap="0px">
-  <div fxFlex="100%" fxLayoutAlign="center">
-    show your latest features
-  </div>
-</div>
+

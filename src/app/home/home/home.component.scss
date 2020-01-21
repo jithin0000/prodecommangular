@@ -21,3 +21,29 @@
     font-weight: bold;
     margin: 2px 0px;
 }
+
+.below-nav{
+    background-color: #03A584;
+    padding: 8px;
+    color: white;
+    font-size: 0.8em;
+  }
+
+  
+.sort-select{
+    font-weight: bold;
+    color: #202020;
+    
+}
+
+.color-div{
+    display: flex;
+    align-items: center;
+    div{
+        background-color: rgb(12, 12, 70);
+        padding: 8px;
+        margin-right: 2px;
+        border-radius: 15px;
+    }
+
+}

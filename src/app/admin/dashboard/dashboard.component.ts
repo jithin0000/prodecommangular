@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import * as d3 from "d3"
+
 @Component({
   selector: 'app-dashboard',
   templateUrl: './dashboard.component.html',
@@ -11,5 +13,6 @@ export class DashboardComponent implements OnInit {
 
   ngOnInit() {
   }
+
 
 }

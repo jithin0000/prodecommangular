@@ -1,3 +1,8 @@
+<div fxLayout="row" fxLayoutAlign="center center" class="below-nav"  fxLayoutGap="0px">
+    <div fxFlex="100%" fxLayoutAlign="center">
+      show your latest features
+    </div>
+  </div>
 <div class="container">
     <div fxLayout="row" style="font-weight:lighter" fxLayoutAlign="start start" fxLayoutGap="10px">
         <mat-list-item matLine>
@@ -19,7 +24,12 @@
             
         </div>
         <div fxFlex="20%">
-            <h5>Sort by</h5>
+            <mat-select class="sort-select" placeholder="sort by" name="item">
+                <mat-option>Recommended</mat-option>
+                <mat-option>New</mat-option>
+                <mat-option>Name</mat-option>
+                <mat-option>Price</mat-option>
+            </mat-select>
         </div>
     </div>
     <mat-divider></mat-divider>
@@ -46,7 +56,12 @@
             <mat-list>
                 <h5>COLOR</h5>
                 <mat-selection-list #shoes dense>
-                    <mat-list-option >RED</mat-list-option>
+                    <mat-list-option >
+                        <div class="color-div">
+                            <div></div>
+                            RED
+                        </div>
+                    </mat-list-option>
                     <mat-list-option >BLUE</mat-list-option>
                     <mat-list-option >YELLOW</mat-list-option>
                   </mat-selection-list>
@@ -72,9 +87,15 @@
                 fxFlex="20%"
                 class="mt-2">
                 <app-product-card routerLink="/home/detail/{{product.id}}" [product]="product"></app-product-card>
+               
             </div>
+           
             </div>
         </div>
     </div>
+            <div *ngIf="products$ | async as products" fxLayout="row" fxLayoutAlign="end end" fxLayoutGap="10px">
+                <mat-paginator (page)="changePage($event)" [pageIndex]="products.number" [length]="products.totalElements"
+                [pageSize]="products.size" [pageSizeOptions]="[5, 10, 25, 100]"></mat-paginator>
+            </div>
 
 </div>
