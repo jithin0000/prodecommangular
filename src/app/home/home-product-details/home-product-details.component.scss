@@ -2,5 +2,26 @@
   padding: 8px;
   width: 2%;
   height: 8px;
-  border: 1px dashed grey;
+  border-radius: 55px;
+}
+
+.detail-subtitle{
+  text-transform: uppercase;
+  color: #707070;
+}
+
+.size-title{
+  font-weight: bold;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+.size-row{
+  div{
+    border: 0.5px solid #65657e;
+    padding: 8px;
+    box-shadow: 1px 1px 4px lightgray;
+    color: #202020;
+
+  }
 }

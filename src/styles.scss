@@ -29,7 +29,7 @@ body { margin: 0; font-family: Ubuntu, "Helvetica Neue", sans-serif; }
 }
 
 .container{
-    margin: 2% 5%;
+    margin: .5% 5%;
 }
 
 .m-input{
@@ -61,4 +61,51 @@ body { margin: 0; font-family: Ubuntu, "Helvetica Neue", sans-serif; }
         margin: 1px;
         color: white;
     }
+  }
+
+  .cart-btn{
+      
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      background-color: #FF4081;
+      margin: 16px 0px;
+      padding: 16px 32px;
+      border-radius: 5px;
+
+      mat-icon{
+          color: white;
+      }
+      
+      .large-btn{
+        background-color: #FF4081;
+        
+        border: none;
+        color: white;
+      }
+
+     
+
+  }
+
+  .cart-btn-danger{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: red;
+    margin: 16px 0px;
+    padding: 16px 32px;
+    border-radius: 5px;
+
+    mat-icon{
+        color: white;
+    }
+    
+    .large-btn{
+      background-color: red;
+      
+      border: none;
+      color: white;
+    }
+
   }
