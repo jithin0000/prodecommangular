@@ -5,6 +5,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { SharedModule } from '../shared/shared.module';
 import { MaterialModule } from '../material/material.module';
 import { AdminRoutingModule } from './admin.routing.module';
+import { ProductModule } from '../product/product.module';
+import { CategoryModule } from '../category/category.module';
 
 
 
@@ -13,7 +15,9 @@ import { AdminRoutingModule } from './admin.routing.module';
   imports: [
     SharedModule,
     MaterialModule,
-    AdminRoutingModule
+    AdminRoutingModule,
+    CategoryModule,
+    ProductModule
   ]
 })
 export class AdminModule { }

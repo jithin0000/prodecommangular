@@ -5,23 +5,23 @@
             <mat-drawer-content>
                 <mat-list>
                     <h3 mat-subheader >Dashboard </h3>
-                    <mat-list-item>
+                    <mat-list-item (click)="component = 1" >
                         <mat-icon mat-list-icon >dashboard</mat-icon>
                         <h4 mat-line class="side-item-text" >Home</h4>
                     </mat-list-item>
-                    <mat-list-item>
+                    <mat-list-item (click)="component = 2" >
                         <mat-icon mat-list-icon >account_circle</mat-icon>
                         <h4 mat-line class="side-item-text" >Users</h4>
                     </mat-list-item>
-                    <mat-list-item routerLink="/category" >
+                    <mat-list-item (click)="component = 3" >
                         <mat-icon  mat-list-icon >category</mat-icon>
                         <h4 mat-line class="side-item-text" >category</h4>
                     </mat-list-item>
-                    <mat-list-item>
+                    <mat-list-item (click)="component = 4" >
                         <mat-icon mat-list-icon >work</mat-icon>
                         <h4 mat-line class="side-item-text" >Department</h4>
                     </mat-list-item>
-                    <mat-list-item>
+                    <mat-list-item (click)="component =5" >
                         <mat-icon mat-list-icon >casino</mat-icon>
                         <h4 mat-line class="side-item-text" >Product</h4>
                     </mat-list-item>
@@ -51,6 +51,18 @@
           </mat-drawer-container>
     </div>
     <div fxFlex="70%">
-        <app-dashboard></app-dashboard>
+        <div [ngSwitch]="component">
+            <div *ngSwitchCase="1">
+                <app-dashboard></app-dashboard>
+            </div>
+            <div *ngSwitchCase="3">
+                <app-category></app-category>
+            </div>
+            <div *ngSwitchCase="5">
+                <app-product></app-product>
+            </div>
+            
+            <div *ngSwitchDefault>output2</div>
+        </div>
     </div>
 </div>

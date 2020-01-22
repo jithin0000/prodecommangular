@@ -27,6 +27,9 @@ import { ColorModule } from '../color/color.module';
     EffectsModule.forFeature(productEffects),
     CategoryModule,
     ColorModule
+  ],
+  exports:[
+    ProductComponent
   ]
 })
 export class ProductModule { }

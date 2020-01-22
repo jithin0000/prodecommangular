@@ -32,6 +32,7 @@ import { DepartmentModule } from '../department/department.module';
     DepartmentModule
   ],
   exports:[
+    CategoryComponent
   ]
 })
 export class CategoryModule { }
