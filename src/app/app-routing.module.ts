@@ -28,6 +28,10 @@ const routes: Routes = [
     path: 'cart',
     loadChildren: () => import('./cart/cart.module').then(cm => cm.CartModule)
   },
+  {
+    path:'color',
+    loadChildren: ()=> import('./color/color.module').then(cm => cm.ColorModule)
+  },
  {
    path: '', redirectTo: 'home', pathMatch: 'full'
  }

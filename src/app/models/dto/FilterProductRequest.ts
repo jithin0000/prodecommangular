@@ -6,6 +6,9 @@ export interface FilterProductRequest {
   search?: string;
   categories?: number[];
   brands?: number[];
+  colors?: string[];
+  min?: number;
+  max?: number;
 
 
 }

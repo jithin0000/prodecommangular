@@ -13,6 +13,7 @@ import { rootReducers } from './store/reducers';
 import { EffectsModule } from '@ngrx/effects';
 import { productEffects } from './store/effects';
 import { CategoryModule } from '../category/category.module';
+import { ColorModule } from '../color/color.module';
 
 
 
@@ -24,7 +25,8 @@ import { CategoryModule } from '../category/category.module';
     ProductRoutingModule,
     StoreModule.forFeature("products", rootReducers),
     EffectsModule.forFeature(productEffects),
-    CategoryModule
+    CategoryModule,
+    ColorModule
   ]
 })
 export class ProductModule { }

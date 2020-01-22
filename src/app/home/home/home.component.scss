@@ -40,11 +40,12 @@
 .color-div{
     display: flex;
     align-items: center;
+    justify-content: start;
     div{
-        background-color: rgb(12, 12, 70);
         padding: 8px;
-        margin-right: 2px;
+        margin-right: 8px;
         border-radius: 15px;
+
     }
 
 }

@@ -1,6 +1,7 @@
 import { Category } from './Category.model';
 import { Photo } from './Photo.model';
 import { BaseModel } from './BaseModel';
+import { Color } from './Color.model';
 
 export interface Product extends BaseModel{
     name: string;
@@ -12,5 +13,6 @@ export interface Product extends BaseModel{
     size: number,
     color: string;
     properties:[],
-    photos: Photo[]
+    photos: Photo[],
+    colors: Color[]
 }

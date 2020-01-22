@@ -23,7 +23,8 @@
 
       <div class="color-sec">
         <h3 class="mat-subheading">Available colors</h3>
-        <p [style.background-color]="product.color" class="mat-body-1 p-color"></p>
+        <p *ngFor="let c of product.colors"
+         [style.background-color]="c.name" class="mat-body-1 p-color"></p>
       </div>
 
       <div class="material-sec">
@@ -37,7 +38,7 @@
          mat-raised-button *ngIf="isProductIncart ; else notInCart" color="warn" >reomve from cart</button>
 
         <ng-template #notInCart>
-          <button mat-raised-button color="primary" (click)="addToCart(product.id)">
+          <button mat-button color="primary" (click)="addToCart(product.id)">
             <mat-icon>add</mat-icon>
             add to cart
           </button>

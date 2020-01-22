@@ -1,17 +1,17 @@
-<div fxLayout="row" fxLayoutAlign="center center" class="below-nav"  fxLayoutGap="0px">
+<div fxLayout="row" fxLayoutAlign="center center" class="below-nav" fxLayoutGap="0px">
     <div fxFlex="100%" fxLayoutAlign="center">
-      show your latest features
+        show your latest features
     </div>
-  </div>
+</div>
 <div class="container">
     <div fxLayout="row" style="font-weight:lighter" fxLayoutAlign="start start" fxLayoutGap="10px">
         <mat-list-item matLine>
-            <div mat-line> Home  /  t-shirts  /  men</div>
+            <div mat-line> Home / t-shirts / men</div>
         </mat-list-item>
     </div>
 
     <div fxLayout="row" fxLayoutAlign="start start" class="mt-1" fxLayoutGap="0px">
-        <div style="font-size: 1em;">Searched Item - <span class="grey-item" >1856 items</span></div>
+        <div style="font-size: 1em;">Searched Item - <span class="grey-item">1856 items</span></div>
     </div>
 
     <div fxLayout="row" class="mt-1" fxLayoutAlign="space-between center" fxLayoutGap="0px">
@@ -20,8 +20,8 @@
         </div>
         <div fxFlex="50%">
 
-            
-            
+
+
         </div>
         <div fxFlex="20%">
             <mat-select class="sort-select" placeholder="sort by" name="item">
@@ -36,75 +36,78 @@
 
     <div fxLayout="row" fxLayoutAlign="start start" fxLayoutGap="10px">
         <div fxFlex="20%" class="side-sec">
-            <mat-list *ngIf="categories$ | async as categories" >
-               
-                <mat-list-item *ngFor="let cate of categories.entities"  >
-                    <mat-radio-button  (change)="selectCategory(cate.id)"
-                     class="filter-option" [value]="cate.id">
+            <mat-list *ngIf="categories$ | async as categories">
+
+                <mat-list-item *ngFor="let cate of categories.entities">
+                    <mat-radio-button (change)="selectCategory(cate.id)" class="filter-option" [value]="cate.id">
                         {{cate.name}}
                     </mat-radio-button>
                 </mat-list-item>
             </mat-list>
             <mat-divider></mat-divider>
-            <mat-list >
+            <mat-list>
                 <h5>BRAND</h5>
-                <mat-selection-list *ngIf="brands$ | async as brands" 
-                #shoes 
-                dense 
-                (selectionChange)="filterByBrands(shoes._value)"
-                
-
-                >
-                    <mat-list-option *ngFor="let brand of brands" [value]="brand.id" >
+                <mat-selection-list *ngIf="brands$ | async as brands" #shoes dense
+                    (selectionChange)="filterByBrands(shoes._value)">
+                    <mat-list-option *ngFor="let brand of brands" [value]="brand.id">
                         {{brand.name}}
                     </mat-list-option>
-                  </mat-selection-list>
-            </mat-list >
+                </mat-selection-list>
+            </mat-list>
             <mat-divider></mat-divider>
 
             <mat-list>
                 <h5>COLOR</h5>
-                <mat-selection-list #shoes dense>
-                    <mat-list-option >
-                        <div class="color-div" >
-                            <div></div>
-                            RED
+                <mat-selection-list *ngIf="colors$ | async as colors" #pdtColor
+                    (selectionChange)="filterByColors(pdtColor._value)" dense>
+                    <mat-list-option *ngFor="let c of colors.entities; let i=index" [value]="c.name">
+                        <div class="color-div">
+                            <div [style.background-color]="c.name"></div>
+                            {{c.name}}
                         </div>
                     </mat-list-option>
-                    <mat-list-option >BLUE</mat-list-option>
-                    <mat-list-option >YELLOW</mat-list-option>
-                  </mat-selection-list>
+                </mat-selection-list>
             </mat-list>
             <mat-divider></mat-divider>
 
             <mat-list>
                 <h5>PRICE RANGE</h5>
-                <mat-list-item>
-                    <mat-slider color="primary" min="0" max="500" step="1" value="100"></mat-slider>
-                </mat-list-item>
+                <form [formGroup]="priceRangeForm" >
+
+                    <mat-list>
+                        <mat-list-item>
+                            <mat-form-field>
+                                <input formControlName="min" type="number" matInput placeholder="min value">
+                            </mat-form-field>
+                        </mat-list-item>
+                        <mat-list-item>
+                            <mat-form-field>
+                                <input formControlName="max" type="number" matInput placeholder="max value">
+                            </mat-form-field>
+                        </mat-list-item>
+                    </mat-list>
+
+                </form>
             </mat-list>
 
         </div>
 
 
 
-        <div fxFlex="90%"  style="background-color: rgb(255, 254, 254);">
-            <div fxLayout="row wrap" *ngIf="products$ | async as products"
-             fxLayoutAlign="space-evenly center" fxLayoutGap="2px">
-                <div *ngFor="let product of products.entities"
-                fxLayoutAlign="center"
-                fxFlex="20%"
-                class="mt-2">
-                <app-product-card routerLink="/home/detail/{{product.id}}" [product]="product"></app-product-card>
-               
-            </div>
-           
+        <div fxFlex="90%" style="background-color: rgb(255, 254, 254);">
+            <div fxLayout="row wrap" *ngIf="products$ | async as products" fxLayoutAlign="space-evenly center"
+                fxLayoutGap="2px">
+                <div *ngFor="let product of products.entities" fxLayoutAlign="center" fxFlex="20%" class="mt-2">
+                    <app-product-card routerLink="/home/detail/{{product.id}}" [product]="product"></app-product-card>
+
+                </div>
+
             </div>
         </div>
     </div>
-            <div *ngIf="products$ | async as products" fxLayout="row" fxLayoutAlign="end end" fxLayoutGap="10px">
-                <mat-paginator (page)="changePage($event)" [pageIndex]="products.number" [length]="products.totalElements"
-                [pageSize]="products.size" [pageSizeOptions]="[5, 10, 25, 100]"></mat-paginator>
-            </div>
+    <div *ngIf="products$ | async as products" fxLayout="row" fxLayoutAlign="end end" fxLayoutGap="10px">
+        <mat-paginator (page)="changePage($event)" [pageIndex]="products.number" [length]="products.totalElements"
+            [pageSize]="products.size" [pageSizeOptions]="[5, 10, 25, 100]"></mat-paginator>
+    </div>
 
 </div>
