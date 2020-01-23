@@ -7,6 +7,7 @@ import { HomeRoutingModule } from './home.routing.module';
 import { ProductModule } from '../product/product.module';
 import { HomeListComponent } from './home-list/home-list.component';
 import { HomeProductDetailsComponent } from './home-product-details/home-product-details.component';
+import { CartModule } from '../cart/cart.module';
 
 
 
@@ -16,7 +17,8 @@ import { HomeProductDetailsComponent } from './home-product-details/home-product
     SharedModule,
     MaterialModule,
     HomeRoutingModule,
-    ProductModule
+    ProductModule,
+    CartModule
   ]
 })
 export class HomeModule { }

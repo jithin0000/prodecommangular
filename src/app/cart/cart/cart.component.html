@@ -32,7 +32,7 @@
             <div fxLayout="row" fxLayoutGap="10px">
                 <div fxFlex="100%" fxLayoutAlign="end center " fxLayoutGap="20px">
                     <h3>Total {{cart.total | currency }}</h3>
-                    <button mat-raised-button color="accent">
+                    <button routerLink="/cart/checkout" mat-raised-button color="accent">
                         <mat-icon>attach_money</mat-icon>
                         proceed to checkout
                     </button>

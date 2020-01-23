@@ -39,4 +39,13 @@ export class CartEffect {
   )
   );
 
+  addUserToCart$ = createEffect(() => this.actions$.pipe(
+    ofType(CartActionTypes.ADD_USER_TO_CART),
+    switchMap((body:{payload: {userId: number}}) => this.cartService.addUserToCart(body.payload).pipe(
+      map(cart => ({type: CartActionTypes.ADD_USER_TO_CART_SUCCESS, payload: cart})),
+      catchError(error => of({type: CartActionTypes.ADD_USER_TO_CART_FAILURE, payload: error}))
+    ))
+  )
+  );
+
 }

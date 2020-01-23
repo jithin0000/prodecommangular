@@ -32,6 +32,10 @@ const routes: Routes = [
     path:'color',
     loadChildren: ()=> import('./color/color.module').then(cm => cm.ColorModule)
   },
+  {
+    path:'auth',
+    loadChildren: () => import('./auth/auth.module').then(am => am.AuthModule)
+  },
  {
    path: '', redirectTo: 'home', pathMatch: 'full'
  }

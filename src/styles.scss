@@ -11,6 +11,13 @@ body { margin: 0; font-family: Ubuntu, "Helvetica Neue", sans-serif; }
 .p-5{
     padding: 2%;
 }
+.pb-2{
+    padding-bottom: 2%;
+}
+
+.pb-2{
+    padding-bottom: 3%;
+}
 
 .pt-3{
     padding-top: 3%;
@@ -36,6 +43,8 @@ body { margin: 0; font-family: Ubuntu, "Helvetica Neue", sans-serif; }
     width: 50%;
     margin-bottom: 50px;
 }
+
+
 
 .m-form-field{
     width: 100%;
@@ -86,6 +95,17 @@ body { margin: 0; font-family: Ubuntu, "Helvetica Neue", sans-serif; }
 
      
 
+  }
+
+  .primary-btn{
+      padding: 16px 32px;
+      background-color: #FF4081;
+      color: white;
+      border: none;
+      text-align: center;
+      &:hover{
+          cursor: pointer;
+      }
   }
 
   .cart-btn-danger{

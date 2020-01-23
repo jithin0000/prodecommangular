@@ -1,6 +1,6 @@
 import {Cart} from '../../../models/dto/Cart';
 import {Action, createReducer, on} from '@ngrx/store';
-import {createCart, createCartFailure, createCartSuccess, getCart, getCartSuccess, getCartFailure, addToCart, addToCartSuccess, addToCartFailure} from '../action';
+import {createCart, createCartFailure, createCartSuccess, getCart, getCartSuccess, getCartFailure, addToCart, addToCartSuccess, addToCartFailure, addToUserCart, addToUserCartSuccess, addToUserCartFailure} from '../action';
 
 export interface CartState {
   data: Cart;
@@ -49,6 +49,18 @@ export const _cartReducer = createReducer(
   }),
 
   on(addToCartFailure, (state, action) => ({...state, loaded: false, loading: false})),
+
+  on(addToUserCart, (state, action) => ({...state, loading: true, loaded: false})),
+  on(addToUserCartSuccess, (state, action) => {
+    return {
+      ...state,
+      data: action.payload, loading: false, loaded: true
+      
+    };
+  }),
+
+  on(addToUserCartFailure, (state, action) => ({...state, loaded: false, loading: false})),
+
 
 );
 

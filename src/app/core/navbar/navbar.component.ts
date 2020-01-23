@@ -5,6 +5,9 @@ import {createCart, getCart} from '../../cart/store/action';
 import { cartSelector } from 'src/app/cart/store/selectors/cart.selector';
 import { Observable } from 'rxjs';
 import { Cart } from 'src/app/models/dto/Cart';
+import { AuthService } from 'src/app/auth/auth.service';
+import { Router } from '@angular/router';
+import { UserService } from 'src/app/user/user.service';
 
 @Component({
   selector: 'app-navbar',
@@ -16,7 +19,10 @@ export class NavbarComponent implements OnInit {
   cart$:Observable<Cart>
 
   constructor(
-    private store: Store<CartModuleState>
+    private store: Store<CartModuleState>,
+    private authService: AuthService,
+    private router: Router,
+    private userService: UserService
   ) { }
 
   ngOnInit() {
@@ -31,6 +37,18 @@ export class NavbarComponent implements OnInit {
     }
 
     this.cart$.subscribe(res => console.log(res))
+
+    this.authService.isUserAuthenticated().subscribe(res => console.log(res))
+
+    this.userService.getUser().subscribe(res =>console.log(res))
+
+
+  }
+
+
+  logout(){
+    this.authService.logout()
+    this.router.navigate(['/auth/'])
   }
 
 }

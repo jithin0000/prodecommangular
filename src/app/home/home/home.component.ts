@@ -19,6 +19,8 @@ import { Color } from 'src/app/models/Color.model';
 import { colorEntitySelector, colorSelector } from 'src/app/color/store/selector';
 import { loadColor } from 'src/app/color/store/actions';
 import { FormBuilder } from '@angular/forms';
+import { AuthService } from 'src/app/auth/auth.service';
+import { CartService } from 'src/app/services/cart/cart.service';
 
 @Component({
   selector: 'app-home',
@@ -40,7 +42,8 @@ export class HomeComponent implements OnInit {
   constructor(
     private store: Store<ProductModuleState>,
     private brandService: BrandService,
-    private formBuilder: FormBuilder
+    private formBuilder: FormBuilder,
+    private authService: AuthService,
     
   ) { }
 
@@ -80,8 +83,23 @@ export class HomeComponent implements OnInit {
 
     this.filterProductByPriceRange()
 
+    this.updateCart()
+
 
   }
+  updateCart() {
+   
+    this.authService.isUserAuthenticated().pipe(
+      filter(item => item === true),
+      tap(()=> console.log())
+      
+    ).subscribe(console.log)
+
+  }
+  private getUserFromToken(): any {
+    return this.authService.getUserId();
+  }
+
   filterProductByPriceRange() {
 
     const priceFilter$ = this.priceRangeForm.valueChanges

@@ -18,6 +18,12 @@ export class CartService extends BaseService<Cart>{
     return this.httpClient.get(this.url + `/add/${parseInt(cartId, 10)}/product/${productId}`);
   }
 
+  public addUserToCart(body: { userId: number}) {
+    const cartId = localStorage.getItem('cart');
+
+    return this.httpClient.put(this.url + `/${parseInt(cartId, 10)}/user`, body);
+  }
+
   public getSingleCart()
   {
     const cartId = localStorage.getItem('cart')

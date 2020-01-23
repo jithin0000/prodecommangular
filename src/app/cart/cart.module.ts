@@ -8,11 +8,12 @@ import {StoreModule} from '@ngrx/store';
 import {cartRootReducer} from './store/reducers';
 import {EffectsModule} from '@ngrx/effects';
 import {cartEffects} from './store/effects';
+import { CheckoutComponent } from './checkout/checkout.component';
 
 
 
 @NgModule({
-  declarations: [CartComponent],
+  declarations: [CartComponent, CheckoutComponent],
   imports: [
     SharedModule,
     MaterialModule,

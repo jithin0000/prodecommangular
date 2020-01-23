@@ -16,6 +16,12 @@ export enum CartActionTypes {
   ADD_TO_CART = '[CART] ADD_TO Cart',
   ADD_TO_CART_FAILURE = '[CART] ADD_TO Cart Failure',
   ADD_TO_CART_SUCCESS = '[CART] ADD_TO Cart Success',
+
+  ADD_USER_TO_CART = '[CART] ADD_USER_TO Cart',
+  ADD_USER_TO_CART_FAILURE = '[CART] ADD_USER_TO Cart Failure',
+  ADD_USER_TO_CART_SUCCESS = '[CART] ADD_TO Cart Success',
+
+
 }
 
 export const createCart = createAction(
@@ -39,10 +45,19 @@ export const getCartFailure = createAction(
 
 
 export const addToCart = createAction(
-  CartActionTypes.ADD_TO_CART , props<{payload: number}>());
+  CartActionTypes.ADD_TO_CART, props<{ payload: number }>());
 export const addToCartSuccess = createAction(
   CartActionTypes.ADD_TO_CART_SUCCESS,
   props<{ payload: Cart }>());
 export const addToCartFailure = createAction(
   CartActionTypes.ADD_TO_CART_FAILURE,
+  props<{ payload: any }>());
+
+export const addToUserCart = createAction(
+  CartActionTypes.ADD_USER_TO_CART, props<{ payload: {userId: number} }>());
+export const addToUserCartSuccess = createAction(
+  CartActionTypes.ADD_USER_TO_CART_SUCCESS,
+  props<{ payload: Cart }>());
+export const addToUserCartFailure = createAction(
+  CartActionTypes.ADD_USER_TO_CART_FAILURE,
   props<{ payload: any }>());

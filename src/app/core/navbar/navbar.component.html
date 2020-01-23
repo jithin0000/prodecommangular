@@ -4,7 +4,7 @@
   </div>
   <div fxFlex="25%">
   <div fxLayout="row" fxLayoutAlign="start start" fxLayoutGap="30px">
-    <a class="nav-item" routerLink="#">men</a>
+    <a class="nav-item" routerLink="/auth">men</a>
     <a class="nav-item" routerLink="#">women</a>
     <a class="nav-item" routerLink="#">kids</a>
     <a class="nav-item" routerLink="#">category</a>
@@ -30,9 +30,8 @@
             shopping_basket
           </mat-icon>
       </a>
-      <mat-icon 
-      
-      class="nav-icon" >shop_to</mat-icon>
+      <mat-icon class="nav-icon" >shop_to</mat-icon>
+      <mat-icon (click)="logout()" class="nav-icon" >exit_to_app</mat-icon>
     </div>
   </div>
 </div>
